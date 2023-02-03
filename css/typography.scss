@@ -43,3 +43,56 @@ button {
         }
     }
 }
+
+.accent-text {
+    color: $accent;
+}
+
+#hello {
+
+    .hello__start__block {
+        
+        .start__title__text {
+            font-size: 25px;
+        }
+
+        .start__desc__text {
+            font-family: 'Gosha Sans bold';
+            font-size: 50px;
+        }
+    }
+}
+
+#solutions {
+    .solutions__title__text {
+        font-family: 'Gosha Sans bold';
+        font-size: 50px;
+    }
+}
+
+#instruction {
+
+    .instruction__block__description {
+
+        .description__desc__text {
+            font-family: 'Gosha Sans bold';
+            font-size: 50px;
+        }
+
+        .description__title__text {
+            font-size: 50px;
+        }
+    }
+
+    .instruction__cards__flex {
+        
+        .cards__card__block {
+            background: #8647EA33;
+
+            .card__text__caps {
+                font-size: 24px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

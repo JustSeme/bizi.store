@@ -29,3 +29,35 @@ button {
 .header__content .header__menu a:hover {
   border-bottom: 1px solid #8647EA;
 }
+
+.accent-text {
+  color: #8647EA;
+}
+
+#hello .hello__start__block .start__title__text {
+  font-size: 25px;
+}
+#hello .hello__start__block .start__desc__text {
+  font-family: "Gosha Sans bold";
+  font-size: 50px;
+}
+
+#solutions .solutions__title__text {
+  font-family: "Gosha Sans bold";
+  font-size: 50px;
+}
+
+#instruction .instruction__block__description .description__desc__text {
+  font-family: "Gosha Sans bold";
+  font-size: 50px;
+}
+#instruction .instruction__block__description .description__title__text {
+  font-size: 50px;
+}
+#instruction .instruction__cards__flex .cards__card__block {
+  background: rgba(134, 71, 234, 0.2);
+}
+#instruction .instruction__cards__flex .cards__card__block .card__text__caps {
+  font-size: 24px;
+  text-transform: uppercase;
+}

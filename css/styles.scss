@@ -4,11 +4,21 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 110px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    height: 75px;
+}
+
+section {
+    margin: 0 120px;
 }
 
 .header__content {
@@ -39,9 +49,73 @@ header {
             margin-left: 75px;
             height: 65px;
             padding: 5px 20px;
-            border: none;
-            border-radius: 10px;
         }
     }
 }
 
+#hello {
+    display: grid;
+    margin: 210px 100px 120px 120px;
+    grid-template-columns: 50% 50%;
+
+    .hello__start__block {
+        
+        .start__button {
+            margin-top: 75px;
+            width: 220px;
+        }
+    }
+}
+
+#solutions {
+    margin-bottom: 150px;
+
+    .solutions__title__text {
+        margin-bottom: 40px;
+    }
+
+    .solutions__slider__block {
+        margin-bottom: 35px;
+    }
+
+    .solutions__button__popup {
+        padding: 10px 70px;
+    }
+}
+
+#instruction {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    .instruction__block__description {
+
+        .description__desc__text {
+            margin-bottom: 60px;
+        }
+
+        .description__title__text {
+            margin-bottom: 140px;
+        }
+        
+        .description__button__consult {
+            padding: 10px 70px;
+        }
+    }
+
+    .instruction__cards__flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .cards__card__block {
+            width: 33%;
+            min-height: 240px;
+            margin: 20px 35px;
+            padding: 0 18.5px;
+            padding-top: 46px;
+            border-radius: 10px;
+            box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
