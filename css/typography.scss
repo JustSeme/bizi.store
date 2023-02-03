@@ -1,0 +1,45 @@
+$accent: #8647EA;
+$background: #EFF2FC;
+$background_2: #E1DEDE;
+
+@font-face {
+    font-family: 'Gosha Sans';
+    src: local('Gosha Sans'),
+        url('../fonts/PPGoshaSans/PPGoshaSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gosha Sans bold';
+    src: local('Gosha Sans bold'),
+        url('../fonts/PPGoshaSans/PPGoshaSans-Bold.otf');
+}
+
+
+h1, h2, button, a {
+    font-family: 'Gosha Sans';
+}
+
+button {
+    background: $accent;
+    color: white;
+    font-size: 30px;
+}
+
+.header__content {
+    font-size: 30px;
+
+    .header__logo {
+        font-weight: 700;
+    }
+
+    .header__menu {
+        a {
+            text-decoration: none;
+            color: #000000;
+
+            &:hover {
+                border-bottom: 1px solid $accent;
+            }
+        }
+    }
+}
