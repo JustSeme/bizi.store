@@ -6,6 +6,14 @@
   font-family: "Gosha Sans bold";
   src: local("Gosha Sans bold"), url("../fonts/PPGoshaSans/PPGoshaSans-Bold.otf");
 }
+header {
+  background: #EFF2FC;
+}
+
+body {
+  background: #EFF2FC;
+}
+
 h1, h2, button, a {
   font-family: "Gosha Sans";
 }

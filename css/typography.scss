@@ -14,6 +14,13 @@ $background_2: #E1DEDE;
         url('../fonts/PPGoshaSans/PPGoshaSans-Bold.otf');
 }
 
+header {
+    background: $background;
+}
+
+body {
+    background: $background;
+}
 
 h1, h2, button, a {
     font-family: 'Gosha Sans';
