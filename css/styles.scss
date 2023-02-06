@@ -9,12 +9,14 @@ header {
     left: 0;
     width: 100%;
     height: 110px;
+    z-index: 1000;
 }
 
 button {
     border: none;
     border-radius: 10px;
     height: 75px;
+    cursor: pointer;
 }
 
 section {
@@ -85,7 +87,15 @@ section {
 
 #instruction {
     display: grid;
+    position: relative;
     grid-template-columns: 40% 60%;
+    margin-bottom: 80px;
+    
+    .crystall-left {
+        position: absolute;
+        left: -165px;
+        bottom: -90px;
+    }
 
     .instruction__block__description {
 
@@ -106,16 +116,126 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 742px;
 
         .cards__card__block {
+            position: relative;
             width: 33%;
-            min-height: 240px;
-            margin: 20px 35px;
+            height: 240px;
+            max-width: 191px;
             padding: 0 18.5px;
             padding-top: 46px;
             border-radius: 10px;
             box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+            
+            &:nth-child(1), &:nth-child(2) {
+                margin-bottom: 35px;
+            }
+            &:nth-child(2), &:nth-child(5), &:nth-child(6) {
+                margin-left: 20px;
+            }
+
+            .card__digit__number {
+                position: absolute;
+                top: -67px;
+                left: -40px;
+            }
         }
+    }
+}
+
+#tariffs {
+
+    .tariffs__text__title {
+        margin-bottom: 98px;
+    }
+
+    
+    .tariffs__grid__wrapper {
+        display: grid;
+        grid-template-columns: 60% 40%;
+
+        .tariffs__flex__wrapper {
+            display: flex;
+
+            .tariffs__block__tariff {
+                position: relative;
+                width: 360px;
+                height: 600px;
+                border-radius: 10px;
+                margin-bottom: 42px;
+                padding-left: 35px;
+                padding-right: 33px;
+                padding-top: 31px;
+                padding-bottom: 39px;
+                z-index: 10;
+
+                &:nth-child(2) {
+                    margin-left: 43px;
+                }
+
+                .tariff__text__title {
+                    margin-bottom: 14px;
+                }
+
+                .tariff__text__price {
+                    margin-bottom: 20px;
+                }
+
+                .tariff__text__desc {
+                    width: 291px;
+                    height: 72px;
+                    margin-bottom: 25px;
+                }
+
+                hr {
+                    width: 290px;
+                    margin-bottom: 15px;
+                }
+
+                .tariff__hr__help {
+                    margin-bottom: 10px;
+                }
+
+                button {
+                    position: absolute;
+                    bottom: 40px;
+                    width: 292px;
+                    height: 55px;
+                }
+
+                .tariff__tags__wrapper {
+                    margin-bottom: 20px;
+
+                    .tariff__tag__item {
+                        img {
+                            margin-right: 8px;
+                        }
+                    }
+
+
+                    .tariff__solo {
+                        margin-bottom: 20px;
+                    }
+            
+                    .tariff__help {
+                        margin-bottom: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#about {
+
+    .about__grid__description {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    
+    .about__grid__tags {
+        display: grid;
+        grid-template-columns: 40% 60%;
     }
 }
