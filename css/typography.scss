@@ -26,6 +26,11 @@ $tariffs_bg: #303030;
     src: url('../fonts/IBMPlexSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Russo One';
+    src: url('../fonts/RussoOne-Regular.ttf');
+}
+
 header {
     background: $background;
 }
@@ -44,23 +49,26 @@ button {
     font-size: 30px;
 }
 
+.logo {
+    font-family: 'Gosha Sans bold';
+    font-weight: 700;
+}
+
+.red-logo {
+    color: #D0251A;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+
+    &:hover {
+        border-bottom: 1px solid $accent;
+    }
+}
+
 .header__content {
     font-size: 30px;
-
-    .header__logo {
-        font-weight: 700;
-    }
-
-    .header__menu {
-        a {
-            text-decoration: none;
-            color: #000000;
-
-            &:hover {
-                border-bottom: 1px solid $accent;
-            }
-        }
-    }
 }
 
 .accent-text {
@@ -234,5 +242,20 @@ button {
 
     .aq__block__wrapper {
         font-size: 35px;
+    }
+}
+
+footer {
+    background-color: $background_2;
+
+    .footer__content {
+        .footer__logo {
+            font-family: 'Russo One';
+            font-size: 32px;
+        }
+
+        a {
+            font-size: 26px;
+        }
     }
 }

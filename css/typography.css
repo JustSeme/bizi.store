@@ -14,6 +14,10 @@
   font-family: "IBM Plex Sans";
   src: url("../fonts/IBMPlexSans-Regular.ttf");
 }
+@font-face {
+  font-family: "Russo One";
+  src: url("../fonts/RussoOne-Regular.ttf");
+}
 header {
   background: #EFF2FC;
 }
@@ -32,18 +36,25 @@ button {
   font-size: 30px;
 }
 
-.header__content {
-  font-size: 30px;
-}
-.header__content .header__logo {
+.logo {
+  font-family: "Gosha Sans bold";
   font-weight: 700;
 }
-.header__content .header__menu a {
+
+.red-logo {
+  color: #D0251A;
+}
+
+a {
   text-decoration: none;
   color: #000000;
 }
-.header__content .header__menu a:hover {
+a:hover {
   border-bottom: 1px solid #8647EA;
+}
+
+.header__content {
+  font-size: 30px;
 }
 
 .accent-text {
@@ -171,4 +182,15 @@ button {
 }
 #questions .aq__block__wrapper {
   font-size: 35px;
+}
+
+footer {
+  background-color: #E1DEDE;
+}
+footer .footer__content .footer__logo {
+  font-family: "Russo One";
+  font-size: 32px;
+}
+footer .footer__content a {
+  font-size: 26px;
 }

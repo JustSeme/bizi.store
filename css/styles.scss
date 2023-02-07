@@ -317,3 +317,29 @@ section {
         margin-bottom: 32px;
     }
 }
+
+footer {
+    padding: 51px 120px 62px 105px;
+    .footer__content {
+        display: flex;
+        justify-content: center;
+        
+        .footer__logo {
+            margin-top: 25.5px;
+        }
+        
+        .footer__button__consult {
+            margin-left: 40px;
+            margin-right: 51px;
+        }
+        
+        .footer__menu {
+            margin-top: 25.5px;
+            a {
+                &:nth-child(2), &:nth-child(3) {
+                    margin-left: 48px;
+                }
+            }
+        }
+    }
+}

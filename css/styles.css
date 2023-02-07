@@ -258,3 +258,24 @@ section {
 #questions hr {
   margin-bottom: 32px;
 }
+
+footer {
+  padding: 51px 120px 62px 105px;
+}
+footer .footer__content {
+  display: flex;
+  justify-content: center;
+}
+footer .footer__content .footer__logo {
+  margin-top: 25.5px;
+}
+footer .footer__content .footer__button__consult {
+  margin-left: 40px;
+  margin-right: 51px;
+}
+footer .footer__content .footer__menu {
+  margin-top: 25.5px;
+}
+footer .footer__content .footer__menu a:nth-child(2), footer .footer__content .footer__menu a:nth-child(3) {
+  margin-left: 48px;
+}
