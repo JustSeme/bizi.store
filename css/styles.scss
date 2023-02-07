@@ -229,14 +229,60 @@ section {
 }
 
 #about {
+    margin: 0;
+    padding: 0 120px;
+
+    .about__text__title {
+        width: 965px;
+        padding-top: 65px;
+        padding-bottom: 20px;
+    }
 
     .about__grid__description {
         display: grid;
         grid-template-columns: 60% 40%;
+        margin-bottom: 27px;
+
+        .about__text__description {
+            margin-top: 50px;
+
+            &.fix-width {
+                max-width: 680px;
+            }
+        }
+
+        .grid__img__wrapper {
+            margin-left: 50%;
+        }
     }
     
     .about__grid__tags {
         display: grid;
         grid-template-columns: 40% 60%;
+
+        .about__tags__list {
+            margin-bottom: 47px;
+
+            li {
+                position: relative;
+                margin-left: 30px;
+                margin-bottom: 35px;
+                max-width: 530px;
+
+                img {
+                    position: absolute;
+                    left: -30px;
+                    top: 45%;
+                }
+            }
+        }
+
+        .about__button__desc {
+            margin-bottom: 102px;
+        }
+        .about__button {
+            width: 505px;
+            margin-bottom: 48px;
+        }
     }
 }

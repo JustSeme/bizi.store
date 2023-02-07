@@ -161,17 +161,65 @@ button {
 
         button {
             font-size: 16px;
+            font-family: 'IBM Plex Sans';
         }
 
+
         .tariff__button__solo {
+            position: relative;
             background: #303030;
-            border: 1px solid transparent;
-            border-image: linear-gradient(#6DDCFF, #7F60F9);
-            border-image-slice: 1;
+        }
+
+        .tariff__button__solo::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 5px; 
+            padding: 1px; 
+            background:linear-gradient(45deg, #6DDCFF,#7F60F9); 
+            mask: 
+                linear-gradient(#fff 0 0) content-box, 
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+        }
+
+        .tariff__button__help {
+            position: relative;
+            background: linear-gradient(#8647EA, #A99ED6);
+            border-radius: 5px;
+        }
+
+        .tariff__button__help::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 5px; 
+            padding: 1px; 
+            background:linear-gradient(45deg, #6DDCFF, #A99ED6); 
+            mask: 
+                linear-gradient(#fff 0 0) content-box, 
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude; 
         }
     }
 }
 
 #about {
     background: $background_2;
+
+    .about__text__title {
+        font-family: 'Gosha Sans bold';
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .about__grid__description {
+        font-size: 36px;
+    }
+
+    .about__grid__tags {
+        font-size: 36px;
+    }
 }
