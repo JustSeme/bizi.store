@@ -233,3 +233,28 @@ section {
   width: 505px;
   margin-bottom: 48px;
 }
+
+#questions {
+  text-align: center;
+  padding-top: 82px;
+  padding-bottom: 122px;
+}
+#questions .questions__text__title {
+  margin-bottom: 122px;
+}
+#questions .aq__block__wrapper {
+  text-align: left;
+}
+#questions .aq__block__wrapper .question__text__title {
+  margin-bottom: 32px;
+}
+#questions .aq__block__wrapper .answer__text__title {
+  margin-top: 45.5px;
+  margin-bottom: 89px;
+}
+#questions .aq__block__wrapper .hide {
+  display: none;
+}
+#questions hr {
+  margin-bottom: 32px;
+}

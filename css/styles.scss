@@ -286,3 +286,34 @@ section {
         }
     }
 }
+
+#questions {
+    text-align: center;
+    padding-top: 82px;
+    padding-bottom: 122px;
+
+    .questions__text__title {
+        margin-bottom: 122px;
+    }
+
+    .aq__block__wrapper {
+        text-align: left;
+
+        .question__text__title {
+            margin-bottom: 32px;
+        }
+
+        .answer__text__title {
+            margin-top: 45.5px;
+            margin-bottom: 89px;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
+
+    hr {
+        margin-bottom: 32px;
+    }
+}
