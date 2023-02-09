@@ -1,6 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    width: 100%;
 }
 
 header {
@@ -57,14 +63,22 @@ section {
 
 #hello {
     display: grid;
-    margin: 210px 100px 120px 120px;
+    margin-top: 210px;
+    margin-bottom: 100px;
     grid-template-columns: 50% 50%;
+    padding: 0;
 
     .hello__start__block {
-        
         .start__button {
             margin-top: 75px;
             width: 220px;
+        }
+    }
+
+    .hello__img__wrapper {
+        justify-self: right;
+        img {
+            width: 100%;
         }
     }
 }
@@ -114,8 +128,10 @@ section {
 
     .instruction__cards__flex {
         display: flex;
+        position: relative;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-self: right;
         width: 742px;
 
         .cards__card__block {
@@ -127,6 +143,10 @@ section {
             padding-top: 46px;
             border-radius: 10px;
             box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+
+            img {
+                width: 100%;
+            }
             
             &:nth-child(1), &:nth-child(2) {
                 margin-bottom: 35px;
@@ -225,6 +245,10 @@ section {
                 }
             }
         }
+
+        .tariffs__img__wrapper {
+            justify-self: right;
+        }
     }
 }
 
@@ -252,7 +276,10 @@ section {
         }
 
         .grid__img__wrapper {
-            margin-left: 50%;
+            justify-self: right;
+            img {
+                width: 100%;
+            }
         }
     }
     

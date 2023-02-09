@@ -1,0 +1,8 @@
+@media (max-width: 1025px) {
+  section {
+    margin: 0 100px;
+  }
+  #instruction .instruction__cards__flex {
+    width: 450px;
+  }
+}

@@ -1,6 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
 }
 
 header {
@@ -53,12 +59,20 @@ section {
 
 #hello {
   display: grid;
-  margin: 210px 100px 120px 120px;
+  margin-top: 210px;
+  margin-bottom: 100px;
   grid-template-columns: 50% 50%;
+  padding: 0;
 }
 #hello .hello__start__block .start__button {
   margin-top: 75px;
   width: 220px;
+}
+#hello .hello__img__wrapper {
+  justify-self: right;
+}
+#hello .hello__img__wrapper img {
+  width: 100%;
 }
 
 #solutions {
@@ -96,8 +110,10 @@ section {
 }
 #instruction .instruction__cards__flex {
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-self: right;
   width: 742px;
 }
 #instruction .instruction__cards__flex .cards__card__block {
@@ -109,6 +125,9 @@ section {
   padding-top: 46px;
   border-radius: 10px;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#instruction .instruction__cards__flex .cards__card__block img {
+  width: 100%;
 }
 #instruction .instruction__cards__flex .cards__card__block:nth-child(1), #instruction .instruction__cards__flex .cards__card__block:nth-child(2) {
   margin-bottom: 35px;
@@ -184,6 +203,9 @@ section {
 #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__help {
   margin-bottom: 11px;
 }
+#tariffs .tariffs__grid__wrapper .tariffs__img__wrapper {
+  justify-self: right;
+}
 
 #about {
   margin: 0;
@@ -206,7 +228,10 @@ section {
   max-width: 680px;
 }
 #about .about__grid__description .grid__img__wrapper {
-  margin-left: 50%;
+  justify-self: right;
+}
+#about .about__grid__description .grid__img__wrapper img {
+  width: 100%;
 }
 #about .about__grid__tags {
   display: grid;
