@@ -1,16 +1,30 @@
 
 @media (max-width: 1025px) {
-    section {
-        margin: 0 100px;
-    }
 
     #instruction {
+        .description__button__consult {
+            font-size: 27px;
+        }
         .instruction__cards__flex {
-            width: 450px;
+            .cards__card__block {
+        
+                &:nth-child(5) {
+                    margin-bottom: 35px;
+                }
+            }
+
+            .cards__card__img {
+                position: absolute;
+                top: 650px;
+                left: 55%;
+                margin-left: 0;
+            }
         }
     }
-}
 
-@media (max-width: 959px) {
+    #tariffs {
+        .tariffs__img__wrapper {
 
+        }
+    }
 }
