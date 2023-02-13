@@ -29,10 +29,6 @@ section {
   margin: 0 120px;
 }
 
-header, section, footer {
-  width: 100%;
-}
-
 .header__content {
   display: flex;
   margin: 0 120px;
@@ -114,7 +110,6 @@ header, section, footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-self: right;
   justify-content: right;
   width: 100%;
   max-width: 745px;
@@ -242,6 +237,9 @@ header, section, footer {
   justify-self: right;
 }
 #about .about__grid__description .grid__img__wrapper img {
+  width: 100%;
+}
+#about .grid__img__wrapper img {
   width: 100%;
 }
 #about .about__grid__tags {

@@ -1,4 +1,7 @@
 @media (max-width: 1025px) {
+  .header__content a {
+    font-size: 26px;
+  }
   #instruction .description__button__consult {
     font-size: 27px;
   }
