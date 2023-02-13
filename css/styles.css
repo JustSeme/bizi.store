@@ -22,6 +22,7 @@ button {
   border: none;
   border-radius: 10px;
   height: 75px;
+  padding: 10px 70px;
   cursor: pointer;
 }
 
@@ -70,7 +71,7 @@ section {
   justify-self: right;
 }
 #hello .hello__img__wrapper img {
-  width: 100%;
+  width: 140%;
 }
 
 #solutions {
@@ -218,7 +219,7 @@ section {
   padding: 0 120px;
 }
 #about .about__text__title {
-  width: 965px;
+  width: 100%;
   padding-top: 65px;
   padding-bottom: 20px;
 }

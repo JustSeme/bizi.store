@@ -2,7 +2,16 @@
 @media (max-width: 1025px) {
     .header__content {
         a {
-            font-size: 26px;
+            font-size: 23px;
+        }
+    }
+    footer {
+        .footer__content {
+            .footer__menu {
+                a {
+                    font-size: 20px;
+                }
+            }
         }
     }
 
@@ -21,7 +30,7 @@
             .cards__card__img {
                 position: absolute;
                 top: 650px;
-                left: 55%;
+                left: 45%;
                 margin-left: 0;
             }
         }
@@ -30,6 +39,69 @@
     #tariffs {
         .tariffs__img__wrapper {
 
+        }
+    }
+
+    #about {
+        .about__button__desc {
+            width: 140%;
+        }
+    }
+}
+
+@media (max-width: 961px) {
+    header, section, footer {
+        margin: 0 10px;
+    }
+    
+    button {
+        padding: 20px 70px;
+    }
+
+    header {
+        height: 60px;
+        .header__content {
+            position: relative;
+            margin: 0;
+            .header__logo {
+                position: absolute;
+                display: inline;
+                left: 0;
+                top: 16px;
+                font-size: 18px;
+            }
+    
+            .header__menu {
+                margin-top: 40px;
+                margin-bottom: 0;
+                
+                a {
+                    font-size: 17px;
+                    margin-left: 0;
+                    flex: 1 1 auto;
+                }
+            }
+        }
+
+        button {
+            display: none;
+        }
+    }
+
+    #hello {
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+        .hello__start__block {
+            .start__button {
+                margin-top: 49px;
+            }
+        }
+        .hello__img__wrapper {
+            margin-left: auto;
+            img {
+                width: 720px;
+            }
         }
     }
 }
