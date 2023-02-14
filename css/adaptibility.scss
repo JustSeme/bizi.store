@@ -93,7 +93,12 @@
         flex-direction: column;
         margin-top: 140px;
         .hello__start__block {
-            font-size: 30px;
+            .start__title__text {
+                font-size: 15px;
+            }
+            .start__desc__text {
+                font-size: 30px;
+            }
             .start__button {
                 height: 40px;
                 width: 185px;
@@ -105,7 +110,7 @@
         .hello__img__wrapper {
             margin-left: auto;
             img {
-                width: 720px;
+                width: 100%;
             }
         }
     }
@@ -204,8 +209,19 @@
             }
 
             .tariffs__img__wrapper {
-                width: 100%;
+                img {
+                    width: 100%;
+                }
             }
         }
+    }
+
+
+    //will be remove
+    .about__button {
+        display: none;
+    }
+    footer {
+        display: none;
     }
 }

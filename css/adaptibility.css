@@ -59,7 +59,10 @@
     flex-direction: column;
     margin-top: 140px;
   }
-  #hello .hello__start__block {
+  #hello .hello__start__block .start__title__text {
+    font-size: 15px;
+  }
+  #hello .hello__start__block .start__desc__text {
     font-size: 30px;
   }
   #hello .hello__start__block .start__button {
@@ -73,7 +76,7 @@
     margin-left: auto;
   }
   #hello .hello__img__wrapper img {
-    width: 720px;
+    width: 100%;
   }
   #solutions {
     margin-bottom: 50px;
@@ -160,7 +163,13 @@
     margin-bottom: 18px !important;
     margin-left: 0 !important;
   }
-  #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper {
+  #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper img {
     width: 100%;
+  }
+  .about__button {
+    display: none;
+  }
+  footer {
+    display: none;
   }
 }
