@@ -65,6 +65,7 @@ a:hover {
 }
 
 #hello .hello__start__block .start__title__text {
+  color: rgba(0, 0, 0, 0.6980392157);
   font-size: 25px;
 }
 #hello .hello__start__block .start__desc__text {

@@ -172,10 +172,14 @@ section {
             }
         }
     }
+
+    .instruction__block__description-mobile {
+        display: none;
+    }
 }
 
 #tariffs {
-
+    text-align: center;
     .tariffs__text__title {
         margin-bottom: 98px;
     }

@@ -147,7 +147,13 @@ section {
 #instruction .instruction__cards__flex .cards__card__img img {
   width: 100%;
 }
+#instruction .instruction__block__description-mobile {
+  display: none;
+}
 
+#tariffs {
+  text-align: center;
+}
 #tariffs .tariffs__text__title {
   margin-bottom: 98px;
 }
