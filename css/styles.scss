@@ -60,121 +60,95 @@ section {
     }
 }
 
-#hello {
-    display: grid;
-    margin-top: 210px;
-    margin-bottom: 100px;
-    grid-template-columns: 50% 50%;
-    padding: 0;
-
-    .hello__start__block {
-        .start__button {
-            margin-top: 75px;
-            width: 220px;
-        }
-    }
-
-    .hello__img__wrapper {
-        justify-self: right;
-        img {
-            width: 140%;
-        }
-    }
-}
-
 #solutions {
-    margin-bottom: 150px;
+    margin: 0;
+    padding: 0 120px;
+    padding-top: 180px;
+    padding-bottom: 75px;
+    text-align: center;
 
     .solutions__title__text {
-        margin-bottom: 40px;
+        margin-bottom: 74px;
     }
 
     .solutions__slider__block {
-        margin-bottom: 35px;
+        margin-bottom: 71px;
     }
 
     .solutions__button__popup {
-        padding: 10px 70px;
+        width: 553px;
+        height: 75px;
     }
 }
 
 #instruction {
-    display: grid;
     position: relative;
-    grid-template-columns: 40% 60%;
-    margin-bottom: 80px;
-    
-    .crystall-left {
-        position: absolute;
-        left: -165px;
-        bottom: -90px;
-    }
+    margin-top: 112px;
+    margin-bottom: 91px;
 
     .instruction__block__description {
-
-        .description__desc__text {
-            margin-bottom: 60px;
-        }
-
-        .description__title__text {
-            margin-bottom: 140px;
-        }
-        
-        .description__button__consult {
-            padding: 10px 70px;
-        }
-    }
-
-    .instruction__cards__flex {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: right;
-        width: 100%;
-        max-width: 745px;
-
-        .instruction__block__description {
-            .description__desc__text {
-                display: inline-block;
+        align-items: right;
+        .description__desc__block {
+            display: flex;
+            flex-direction: column;
+            max-width: 580px;
+            .description__title__text {
+                max-width: 530px;
+                margin-bottom: 70px;
             }
         }
-
-        .cards__card__block {
-            position: relative;
-            width: 33%;
-            height: 240px;
-            max-width: 191px;
-            padding: 0 18.5px;
-            padding-top: 46px;
-            border-radius: 10px;
-            box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-            
-            &:nth-child(1), &:nth-child(2), &:nth-child(4) {
-                margin-bottom: 35px;
-            }
-            &:nth-child(2), &:nth-child(5), &:nth-child(6) {
-                margin-left: 20px;
-            }
-
-            .card__digit__number {
-                position: absolute;
-                top: -67px;
-                left: -40px;
-            }
-        }
-
-        .cards__card__img {
-            width: 228px;
-            height: 240px;
-            margin-left: 20px;
+        .instruction__img__wrapper {
+            margin-left: auto;
             img {
                 width: 100%;
             }
         }
     }
 
-    .instruction__block__description-mobile {
-        display: none;
+    .instruction__cards__wrapper {
+        text-align: center;
+        .cards__title__text {
+            margin-bottom: 110px;
+        }
+
+        .cards__flex__wrapper {
+            display: flex;
+            flex-direction: row;
+            height: 230px;
+
+            .cards__card__block {
+                position: relative;
+                text-align: left;
+                width: 100%;
+                padding: 0 39px;
+                padding-top: 40px;
+                margin-left: 20px;
+                border-radius: 10px;
+                box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    
+                .card__digit__number {
+                    position: absolute;
+                    top: -67px;
+                    left: -40px;
+                }
+            }
+            margin-bottom: 68px;
+        }
+        .crystall-right {
+            position: absolute;
+            right: -20px;
+            bottom: -40px;
+            width: 106px;
+            height: 112px;
+        }
+        .pig-left {
+            position: absolute;
+            left: 0;
+            bottom: -80px;
+            width: 220px;
+            height: 220px;
+        }
     }
 }
 

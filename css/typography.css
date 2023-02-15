@@ -19,7 +19,7 @@
   src: url("../fonts/RussoOne-Regular.ttf");
 }
 header {
-  background: #EFF2FC;
+  background: #E1DEDE;
 }
 
 body {
@@ -64,30 +64,36 @@ a:hover {
   color: #8647EA;
 }
 
-#hello .hello__start__block .start__title__text {
-  color: rgba(0, 0, 0, 0.6980392157);
-  font-size: 25px;
+#solutions {
+  background: #E1DEDE;
 }
-#hello .hello__start__block .start__desc__text {
-  font-family: "Gosha Sans bold";
-  font-size: 50px;
-}
-
 #solutions .solutions__title__text {
   font-family: "Gosha Sans bold";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #instruction .instruction__block__description {
   font-size: 49px;
 }
-#instruction .instruction__block__description .description__desc__text {
-  font-family: "Gosha Sans bold";
+#instruction .instruction__block__description .description__title__text {
+  font-size: 50px;
+  font-weight: 700;
 }
-#instruction .instruction__cards__flex .cards__card__block {
+#instruction .instruction__block__description .descrtiption__desc__text {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+#instruction .instruction__cards__wrapper {
+  text-align: center;
+}
+#instruction .instruction__cards__wrapper .cards__title__text {
+  font-size: 50px;
+  font-weight: 700;
+}
+#instruction .instruction__cards__wrapper .cards__card__block {
   background: rgba(134, 71, 234, 0.2);
 }
-#instruction .instruction__cards__flex .cards__card__block .card__digit__number {
+#instruction .instruction__cards__wrapper .cards__card__block .card__digit__number {
   font-family: "Rubik Mono One";
   font-size: 110px;
   background: linear-gradient(150.98deg, rgba(134, 71, 234, 0.5) 14.97%, rgba(109, 220, 255, 0.5) 82.61%);
@@ -95,8 +101,8 @@ a:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-#instruction .instruction__cards__flex .cards__card__block .card__text__caps {
-  font-size: 24px;
+#instruction .instruction__cards__wrapper .cards__card__block .card__text__caps {
+  font-size: 20px;
   text-transform: uppercase;
 }
 

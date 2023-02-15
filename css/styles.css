@@ -56,99 +56,88 @@ section {
   padding: 5px 20px;
 }
 
-#hello {
-  display: grid;
-  margin-top: 210px;
-  margin-bottom: 100px;
-  grid-template-columns: 50% 50%;
-  padding: 0;
-}
-#hello .hello__start__block .start__button {
-  margin-top: 75px;
-  width: 220px;
-}
-#hello .hello__img__wrapper {
-  justify-self: right;
-}
-#hello .hello__img__wrapper img {
-  width: 140%;
-}
-
 #solutions {
-  margin-bottom: 150px;
+  margin: 0;
+  padding: 0 120px;
+  padding-top: 180px;
+  padding-bottom: 75px;
+  text-align: center;
 }
 #solutions .solutions__title__text {
-  margin-bottom: 40px;
+  margin-bottom: 74px;
 }
 #solutions .solutions__slider__block {
-  margin-bottom: 35px;
+  margin-bottom: 71px;
 }
 #solutions .solutions__button__popup {
-  padding: 10px 70px;
+  width: 553px;
+  height: 75px;
 }
 
 #instruction {
-  display: grid;
   position: relative;
-  grid-template-columns: 40% 60%;
-  margin-bottom: 80px;
+  margin-top: 112px;
+  margin-bottom: 91px;
 }
-#instruction .crystall-left {
-  position: absolute;
-  left: -165px;
-  bottom: -90px;
+#instruction .instruction__block__description {
+  display: flex;
+  align-items: right;
 }
-#instruction .instruction__block__description .description__desc__text {
-  margin-bottom: 60px;
+#instruction .instruction__block__description .description__desc__block {
+  display: flex;
+  flex-direction: column;
+  max-width: 580px;
 }
-#instruction .instruction__block__description .description__title__text {
-  margin-bottom: 140px;
+#instruction .instruction__block__description .description__desc__block .description__title__text {
+  max-width: 530px;
+  margin-bottom: 70px;
 }
-#instruction .instruction__block__description .description__button__consult {
-  padding: 10px 70px;
+#instruction .instruction__block__description .instruction__img__wrapper {
+  margin-left: auto;
 }
-#instruction .instruction__cards__flex {
+#instruction .instruction__block__description .instruction__img__wrapper img {
+  width: 100%;
+}
+#instruction .instruction__cards__wrapper {
+  text-align: center;
+}
+#instruction .instruction__cards__wrapper .cards__title__text {
+  margin-bottom: 110px;
+}
+#instruction .instruction__cards__wrapper .cards__flex__wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: right;
-  width: 100%;
-  max-width: 745px;
+  height: 230px;
+  margin-bottom: 68px;
 }
-#instruction .instruction__cards__flex .instruction__block__description .description__desc__text {
-  display: inline-block;
-}
-#instruction .instruction__cards__flex .cards__card__block {
+#instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
   position: relative;
-  width: 33%;
-  height: 240px;
-  max-width: 191px;
-  padding: 0 18.5px;
-  padding-top: 46px;
+  text-align: left;
+  width: 100%;
+  padding: 0 39px;
+  padding-top: 40px;
+  margin-left: 20px;
   border-radius: 10px;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#instruction .instruction__cards__flex .cards__card__block:nth-child(1), #instruction .instruction__cards__flex .cards__card__block:nth-child(2), #instruction .instruction__cards__flex .cards__card__block:nth-child(4) {
-  margin-bottom: 35px;
-}
-#instruction .instruction__cards__flex .cards__card__block:nth-child(2), #instruction .instruction__cards__flex .cards__card__block:nth-child(5), #instruction .instruction__cards__flex .cards__card__block:nth-child(6) {
-  margin-left: 20px;
-}
-#instruction .instruction__cards__flex .cards__card__block .card__digit__number {
+#instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__digit__number {
   position: absolute;
   top: -67px;
   left: -40px;
 }
-#instruction .instruction__cards__flex .cards__card__img {
-  width: 228px;
-  height: 240px;
-  margin-left: 20px;
+#instruction .instruction__cards__wrapper .crystall-right {
+  position: absolute;
+  right: -20px;
+  bottom: -40px;
+  width: 106px;
+  height: 112px;
 }
-#instruction .instruction__cards__flex .cards__card__img img {
-  width: 100%;
-}
-#instruction .instruction__block__description-mobile {
-  display: none;
+#instruction .instruction__cards__wrapper .pig-left {
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  width: 220px;
+  height: 220px;
 }
 
 #tariffs {
