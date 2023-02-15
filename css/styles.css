@@ -44,7 +44,7 @@ section {
   display: flex;
   width: 100%;
   margin: 35px 0;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 .header__content .header__menu a {
@@ -276,7 +276,8 @@ section {
   text-align: left;
 }
 #questions .aq__block__wrapper .question__text__title {
-  margin-bottom: 32px;
+  cursor: pointer;
+  padding-bottom: 32px;
 }
 #questions .aq__block__wrapper .answer__text__title {
   margin-top: 45.5px;
@@ -295,17 +296,17 @@ footer {
 footer .footer__content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 footer .footer__content .footer__button__consult {
   margin-left: 40px;
-  margin-right: 51px;
+  margin-right: 93px;
 }
 footer .footer__content .footer__menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-footer .footer__content .footer__menu a:nth-child(2), footer .footer__content .footer__menu a:nth-child(3) {
-  margin-left: 48px;
+footer .footer__content .footer__menu a:nth-child(2) {
+  margin-left: 84px;
 }

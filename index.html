@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/typography.css">
     <!-- <link rel="stylesheet" href="./css/adaptibility.css"> -->
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <title>BiziStore</title>
 </head>
 <body>
     <header>
         <div class="header__content">
             <div class="header__logo logo">
-                <h2>bizi<span class="red-logo">.</span>store</h2>
+                <h2>bizi<span class="accent-text">.</span>store</h2>
             </div>
             <div class="header__menu">
                 <a href="#about">Что это?</a>
-                <a href="#select_project">К выбору проекта </a>
                 <a href="#select_tariffs">Тарифы</a>
                 <button>консультация</button>
             </div>
@@ -29,8 +31,15 @@
         <h1 class="solutions__title__text">
             Используйте готовые решения для запуска бизнеса 
         </h1>
-        <div id="js-slider" class="solutions__slider__block">
-            here will be slider
+        <div id="js-carousel-1" class="owl-carousel solutions__slider__block">
+            <div class="carousel-item">1</div>
+            <div class="carousel-item">2</div>
+            <div class="carousel-item">3</div>
+            <div class="carousel-item">4</div>
+            <div class="carousel-item">5</div>
+            <div class="carousel-item">6</div>
+            <div class="carousel-item">7</div>
+            <div class="carousel-item">8</div>
         </div>
         <button class="solutions__button__popup">что входит в состав бизнеса</button>
     </section>
@@ -213,16 +222,18 @@
     <footer>
         <div class="footer__content">
             <div class="footer__logo logo">
-                bizi<span class="red-logo">.</span>store
+                bizi<span class="accent-text">.</span>store
             </div>
             <button class="footer__button__consult">нужна консультация</button>
             <div class="footer__menu">
                 <a href="#about">Что это?</a>
-                <a href="#select_project">К выбору проекта </a>
                 <a href="#select_tariffs">Тарифы</a>
             </div>
         </div>
     </footer>
+
     <script src="script.js"></script>
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 </body>
 </html>

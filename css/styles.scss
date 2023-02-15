@@ -45,7 +45,7 @@ section {
         display: flex;
         width: 100%;
         margin: 35px 0;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         
         a {
@@ -319,9 +319,10 @@ section {
 
     .aq__block__wrapper {
         text-align: left;
-
+        
         .question__text__title {
-            margin-bottom: 32px;
+            cursor: pointer;
+            padding-bottom: 32px;
         }
 
         .answer__text__title {
@@ -344,11 +345,11 @@ footer {
     .footer__content {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         
         .footer__button__consult {
             margin-left: 40px;
-            margin-right: 51px;
+            margin-right: 93px;
         }
         
         .footer__menu {
@@ -356,8 +357,8 @@ footer {
             align-items: center;
             justify-content: center;
             a {
-                &:nth-child(2), &:nth-child(3) {
-                    margin-left: 48px;
+                &:nth-child(2) {
+                    margin-left: 84px;
                 }
             }
         }
