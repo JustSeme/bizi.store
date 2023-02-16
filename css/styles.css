@@ -76,9 +76,12 @@ section {
 #solutions .carousel-item {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
   align-items: center;
   border-radius: 10px;
   padding: 28px 31px;
+  cursor: grab;
 }
 #solutions .carousel-item .slide__img__wrapper {
   width: 100%;
