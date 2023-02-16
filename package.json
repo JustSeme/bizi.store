@@ -4,5 +4,7 @@
   "main": "index.html",
   "author": "JustSemen",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
 }
