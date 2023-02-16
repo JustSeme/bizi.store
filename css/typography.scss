@@ -1,7 +1,7 @@
 $accent: #8647EA;
 $background: #EFF2FC;
 $background_2: #E1DEDE;
-$tariffs_bg: #303030;
+$black_bg: #303030;
 
 @font-face {
     font-family: 'Gosha Sans';
@@ -83,6 +83,7 @@ a {
 
     .carousel-item {
         color: white;
+        background: $black_bg;
         .slide__marker__img {
             background: $accent;
             font-weight: 900;
@@ -158,7 +159,7 @@ a {
     }
     
     .tariffs__block__tariff {
-        background: $tariffs_bg;
+        background: $black_bg;
         color: white;
         font-family: 'IBM Plex Sans';
 

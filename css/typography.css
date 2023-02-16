@@ -69,6 +69,7 @@ a:hover {
 }
 #solutions .carousel-item {
   color: white;
+  background: #303030;
 }
 #solutions .carousel-item .slide__marker__img {
   background: #8647EA;
