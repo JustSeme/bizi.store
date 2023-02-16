@@ -67,6 +67,27 @@ a:hover {
   font-family: "Gosha Sans bold";
   font-size: 40px;
 }
+#solutions .carousel-item {
+  color: white;
+}
+#solutions .carousel-item .slide__marker__img {
+  background: #8647EA;
+  font-weight: 900;
+  font-size: 10px;
+  font-family: "Gosha Sans";
+}
+#solutions .carousel-item .slide__info__block {
+  font-size: 18px;
+}
+#solutions .carousel-item .slide__info__block .info__title__text {
+  font-size: 23px;
+}
+#solutions .carousel-item .slide__info__block .info__gray__text {
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+#solutions .carousel-item .slide__info__block .info__button__wrapper .info__button {
+  font-size: 20px;
+}
 
 #instruction .instruction__block__description {
   font-size: 49px;

@@ -80,6 +80,30 @@ a {
         font-family: 'Gosha Sans bold';
         font-size: 40px;
     }
+
+    .carousel-item {
+        color: white;
+        .slide__marker__img {
+            background: $accent;
+            font-weight: 900;
+            font-size: 10px;
+            font-family: 'Gosha Sans';
+        }
+        .slide__info__block {
+            font-size: 18px;
+            .info__title__text {
+                font-size: 23px;
+            }
+            .info__gray__text {
+                color: #FFFFFFB2;
+            }
+            .info__button__wrapper {
+                .info__button {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
 
 #instruction {

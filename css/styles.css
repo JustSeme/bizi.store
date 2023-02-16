@@ -73,6 +73,54 @@ section {
   width: 553px;
   height: 75px;
 }
+#solutions .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+#solutions .carousel-item .slide__img__wrapper {
+  width: 100%;
+  height: 260px;
+}
+#solutions .carousel-item .slide__img__wrapper img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+#solutions .carousel-item .slide__marker__img {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 58px;
+  height: 58px;
+  align-items: center;
+  border-radius: 50%;
+}
+#solutions .carousel-item .slide__info__block {
+  width: 100%;
+  text-align: left;
+}
+#solutions .carousel-item .slide__info__block .info__title__text {
+  margin-top: 15px;
+}
+#solutions .carousel-item .slide__info__block .info__item__text {
+  margin-top: 10px;
+}
+#solutions .carousel-item .slide__info__block .info__item__text .profit {
+  margin-top: 15px;
+}
+#solutions .carousel-item .slide__info__block .info__button__wrapper {
+  text-align: center;
+  margin-top: 27px;
+}
+#solutions .carousel-item .slide__info__block .info__button__wrapper .info__button {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  line-height: 0;
+}
 
 #instruction {
   position: relative;
