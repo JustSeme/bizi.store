@@ -25,7 +25,6 @@
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
-  width: 100%;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
@@ -253,32 +252,4 @@
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-}
-
-.carousel-item {
-  background: #303030;
-  padding: 28px 31px;
-  text-align: center;
-  box-sizing: border-box;
-  cursor: grab;
-  position: relative;
-  height: 513px;
-  overflow-wrap: break-word;
-}
-
-.owl-carousel button.owl-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #8647EA99;
-  margin-top: 17px;
-  margin-bottom: 24px;
-}
-
-.owl-carousel button.owl-dot:not(:nth-child(1)) {
-  margin-left: 10px;
-}
-
-.owl-carousel button.owl-dot.active {
-  background: #8647EA;
 }
