@@ -10,6 +10,12 @@ $(document).ready(function () {
 
     $('.js-quest').on('click', function () {
         const anwsData = $(this).attr('data-answ')
-        $(`.js-answ[data-answ="${anwsData}"]`).toggleClass('hide')
+        const hiddenElem = $(`.js-answ[data-answ="${anwsData}"]:hidden`)
+        const visibleElem = $(`.js-answ[data-answ="${anwsData}"]:visible`)
+        if (hiddenElem) {
+            hiddenElem.slideDown()
+        } if (visibleElem) {
+            visibleElem.slideUp()
+        }
     })
 });
