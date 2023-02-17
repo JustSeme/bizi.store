@@ -105,6 +105,27 @@ a {
             }
         }
     }
+
+    .owl-dots {
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 24px;
+    }
+    
+    .owl-carousel button.owl-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #8647EA99;
+        
+        &:not(:nth-child(1)) {
+            margin-left: 10px;
+        }
+    }
+    
+    .owl-carousel button.owl-dot.active {
+        background: $accent;
+    }
 }
 
 #instruction {

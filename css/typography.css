@@ -89,6 +89,23 @@ a:hover {
 #solutions .carousel-item .slide__info__block .info__button__wrapper .info__button {
   font-size: 20px;
 }
+#solutions .owl-dots {
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 24px;
+}
+#solutions .owl-carousel button.owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(134, 71, 234, 0.6);
+}
+#solutions .owl-carousel button.owl-dot:not(:nth-child(1)) {
+  margin-left: 10px;
+}
+#solutions .owl-carousel button.owl-dot.active {
+  background: #8647EA;
+}
 
 #instruction .instruction__block__description {
   font-size: 49px;

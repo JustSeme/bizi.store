@@ -235,9 +235,6 @@ section {
   width: 290px;
   margin-bottom: 15px;
 }
-#tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__hr__help {
-  margin-bottom: 10px;
-}
 #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff button {
   position: absolute;
   bottom: 40px;
@@ -246,16 +243,14 @@ section {
   height: 55px;
 }
 #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper {
+  margin-bottom: 37px;
+  text-align: left;
+}
+#tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__tag__item {
   margin-bottom: 20px;
 }
 #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__tag__item img {
   margin-right: 8px;
-}
-#tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__solo {
-  margin-bottom: 20px;
-}
-#tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__help {
-  margin-bottom: 11px;
 }
 #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper {
   justify-self: right;

@@ -254,10 +254,6 @@ section {
                     margin-bottom: 15px;
                 }
 
-                .tariff__hr__help {
-                    margin-bottom: 10px;
-                }
-
                 button {
                     position: absolute;
                     bottom: 40px;
@@ -267,21 +263,14 @@ section {
                 }
 
                 .tariff__tags__wrapper {
-                    margin-bottom: 20px;
+                    margin-bottom: 37px;
+                    text-align: left;
 
                     .tariff__tag__item {
+                        margin-bottom: 20px;
                         img {
                             margin-right: 8px;
                         }
-                    }
-
-
-                    .tariff__solo {
-                        margin-bottom: 20px;
-                    }
-            
-                    .tariff__help {
-                        margin-bottom: 11px;
                     }
                 }
             }

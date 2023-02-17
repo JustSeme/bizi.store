@@ -18,4 +18,20 @@ $(document).ready(function () {
             visibleElem.slideUp()
         }
     })
+
+    $('.header__content .header__menu a[href*="#"]').on('click', function (e) {
+        e.preventDefault()
+        let anchor = $(this)
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top - 110
+        }, 1000)
+    })
+
+    $('.footer__content .footer__menu a[href*="#"]').on('click', function (e) {
+        e.preventDefault()
+        let anchor = $(this)
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top - 110
+        }, 1000)
+    })
 });
