@@ -6,6 +6,23 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 10000,
         margin: 50,
+        responsive: {
+            2560: {
+                items: 6
+            },
+            2000: {
+                items: 5
+            },
+            1650: {
+                items: 4
+            },
+            1150: {
+                items: 3
+            },
+            1024: {
+                items: 2
+            }
+        }
     });
 
     $('.js-quest').on('click', function () {

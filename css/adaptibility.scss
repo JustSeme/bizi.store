@@ -1,4 +1,7 @@
 
+@media (max-width: 2560px) {
+}
+
 @media (max-width: 1025px) {
     .header__content {
         a {
@@ -84,103 +87,6 @@
         }
 
         button {
-            display: none;
-        }
-    }
-
-    #hello {
-        display: flex;
-        flex-direction: column;
-        margin-top: 140px;
-        .hello__start__block {
-            .start__title__text {
-                font-size: 15px;
-            }
-            .start__desc__text {
-                font-size: 30px;
-            }
-            .start__button {
-                height: 40px;
-                width: 185px;
-                margin-top: 49px;
-                font-size: 17px;
-                line-height: 0;
-            }
-        }
-        .hello__img__wrapper {
-            margin-left: auto;
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-    #solutions {
-        margin-bottom: 50px;
-        .solutions__title__text {
-            font-size: 30px;
-        }
-        .solutions__button__popup {
-            display: none;
-        }
-        .solutions__slider__block {
-            margin-bottom: 0;
-        }
-    }
-
-    #instruction {
-        display: block;
-        margin-bottom: 50px;
-        .instruction__block__description {
-            .description__desc__text {
-                font-size: 30px;
-            }
-            .description__title__text {
-                display: none;
-            }
-            .description__button__consult {
-                display: none;
-            }
-        }
-
-        .instruction__block__description-mobile {
-            display: block;
-            text-align: center;
-            .description__title__text {
-                margin-top: 20px;
-                font-size: 22px;
-            }
-            .description__button__consult {
-                height: 40px;
-                width: 310px;
-                margin-top: 10px;
-                font-size: 17px;
-                line-height: 0;
-            }
-        }
-
-        .instruction__cards__flex {
-            display: block;
-            .cards__card__block {
-                width: 100%;
-                max-width: 700px;
-                height: auto;
-                min-height: 126px;
-                margin-left: 10px !important;
-                margin-right: 15px !important;
-                margin-bottom: 11px !important;
-                padding: 26.5px 15.5px;
-                .card__digit__number {
-                    display: none;
-                }
-                
-            }
-            .cards__card__img {
-                display: none;
-            }
-        }
-
-        .crystall-left {
             display: none;
         }
     }

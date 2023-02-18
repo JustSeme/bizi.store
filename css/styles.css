@@ -158,8 +158,8 @@ section {
 }
 #instruction .instruction__cards__wrapper .cards__flex__wrapper {
   display: flex;
-  flex-direction: row;
   height: 230px;
+  max-width: 1600px;
   margin-bottom: 68px;
 }
 #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
@@ -168,7 +168,7 @@ section {
   width: 100%;
   padding: 0 39px;
   padding-top: 40px;
-  margin-left: 20px;
+  margin-left: 14px;
   border-radius: 10px;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
