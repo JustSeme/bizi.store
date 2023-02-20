@@ -219,7 +219,10 @@ a:hover {
   font-size: 30px;
 }
 #about .about__grid__tags {
-  font-size: 26px;
+  font-size: 20px;
+}
+#about .about__grid__tags .about__button__desc {
+  font-size: 30px;
 }
 
 #questions .questions__text__title {

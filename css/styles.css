@@ -272,7 +272,6 @@ section {
 #about .about__grid__description {
   display: grid;
   grid-template-columns: 60% 40%;
-  margin-bottom: 27px;
 }
 #about .about__grid__description .about__text__description {
   margin-top: 50px;
@@ -282,6 +281,7 @@ section {
 }
 #about .about__grid__description .grid__img__wrapper {
   justify-self: right;
+  text-align: right;
 }
 #about .about__grid__description .grid__img__wrapper img {
   width: 50%;
@@ -291,21 +291,25 @@ section {
   grid-template-columns: 40% 60%;
 }
 #about .about__grid__tags .about__text__description {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 #about .about__grid__tags .about__tags__list {
   margin-bottom: 47px;
 }
 #about .about__grid__tags .about__tags__list li {
   position: relative;
-  margin-left: 30px;
-  margin-bottom: 35px;
+  margin-left: 25px;
+  margin-bottom: 30px;
   max-width: 530px;
 }
 #about .about__grid__tags .about__tags__list li img {
   position: absolute;
   left: -30px;
-  top: 45%;
+  top: 30%;
+}
+#about .about__grid__tags .grid__img__wrapper {
+  text-align: right;
+  justify-self: right;
 }
 #about .about__grid__tags .about__button__desc {
   margin-bottom: 102px;

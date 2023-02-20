@@ -300,7 +300,6 @@ section {
     .about__grid__description {
         display: grid;
         grid-template-columns: 60% 40%;
-        margin-bottom: 27px;
 
         .about__text__description {
             margin-top: 50px;
@@ -312,6 +311,7 @@ section {
 
         .grid__img__wrapper {
             justify-self: right;
+            text-align: right;
             img {
                 width: 50%;
             }
@@ -323,23 +323,28 @@ section {
         grid-template-columns: 40% 60%;
 
         .about__text__description {
-            margin-bottom: 35px;
+            margin-bottom: 15px;
         }
         .about__tags__list {
             margin-bottom: 47px;
 
             li {
                 position: relative;
-                margin-left: 30px;
-                margin-bottom: 35px;
+                margin-left: 25px;
+                margin-bottom: 30px;
                 max-width: 530px;
 
                 img {
                     position: absolute;
                     left: -30px;
-                    top: 45%;
+                    top: 30%;
                 }
             }
+        }
+
+        .grid__img__wrapper {
+            text-align: right;
+            justify-self: right;
         }
 
         .about__button__desc {

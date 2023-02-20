@@ -269,8 +269,10 @@ a {
     }
 
     .about__grid__tags {
-        font-size: 26px;
-        
+        font-size: 20px;
+        .about__button__desc {
+            font-size: 30px;
+        }
     }
 }
 
