@@ -55,6 +55,9 @@ a:hover {
 .header__content {
   font-size: 30px;
 }
+.header__content button {
+  font-size: 26px;
+}
 
 .accent-text {
   color: #8647EA;
