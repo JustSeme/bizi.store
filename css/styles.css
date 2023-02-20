@@ -291,15 +291,15 @@ section {
   grid-template-columns: 40% 60%;
 }
 #about .about__grid__tags .about__text__description {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 #about .about__grid__tags .about__tags__list {
   margin-bottom: 47px;
 }
 #about .about__grid__tags .about__tags__list li {
   position: relative;
-  margin-left: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-left: 30px;
   max-width: 530px;
 }
 #about .about__grid__tags .about__tags__list li img {
