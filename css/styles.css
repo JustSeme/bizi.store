@@ -284,14 +284,14 @@ section {
   justify-self: right;
 }
 #about .about__grid__description .grid__img__wrapper img {
-  width: 100%;
-}
-#about .grid__img__wrapper img {
-  width: 100%;
+  width: 50%;
 }
 #about .about__grid__tags {
   display: grid;
   grid-template-columns: 40% 60%;
+}
+#about .about__grid__tags .about__text__description {
+  margin-bottom: 35px;
 }
 #about .about__grid__tags .about__tags__list {
   margin-bottom: 47px;

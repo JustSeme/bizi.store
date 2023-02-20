@@ -313,14 +313,8 @@ section {
         .grid__img__wrapper {
             justify-self: right;
             img {
-                width: 100%;
+                width: 50%;
             }
-        }
-    }
-
-    .grid__img__wrapper {
-        img {
-            width: 100%;
         }
     }
     
@@ -328,6 +322,9 @@ section {
         display: grid;
         grid-template-columns: 40% 60%;
 
+        .about__text__description {
+            margin-bottom: 35px;
+        }
         .about__tags__list {
             margin-bottom: 47px;
 
