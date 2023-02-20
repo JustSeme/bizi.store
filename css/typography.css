@@ -233,11 +233,8 @@ a:hover {
 
 footer {
   background-color: #E1DEDE;
+  font-size: 30px;
 }
 footer .footer__content .footer__logo {
   font-family: "Russo One";
-  font-size: 32px;
-}
-footer .footer__content a {
-  font-size: 26px;
 }

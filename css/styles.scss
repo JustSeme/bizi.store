@@ -87,6 +87,7 @@ section {
         position: relative;
         align-items: center;
         border-radius: 10px;
+        height: 624px;
         padding: 28px 31px;
         cursor: grab;
         .slide__img__wrapper {
@@ -112,6 +113,7 @@ section {
             width: 100%;
             text-align: left;
             .info__title__text {
+                
                 margin-top: 15px;
             }
             .info__item__text {
@@ -402,6 +404,7 @@ footer {
             align-items: center;
             justify-content: center;
             a {
+                text-align: center;
                 &:nth-child(2) {
                     margin-left: 84px;
                 }

@@ -80,6 +80,7 @@ section {
   position: relative;
   align-items: center;
   border-radius: 10px;
+  height: 624px;
   padding: 28px 31px;
   cursor: grab;
 }
@@ -356,6 +357,9 @@ footer .footer__content .footer__menu {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+footer .footer__content .footer__menu a {
+  text-align: center;
 }
 footer .footer__content .footer__menu a:nth-child(2) {
   margin-left: 84px;

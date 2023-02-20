@@ -288,15 +288,11 @@ a {
 
 footer {
     background-color: $background_2;
+    font-size: 30px;
 
     .footer__content {
         .footer__logo {
             font-family: 'Russo One';
-            font-size: 32px;
-        }
-
-        a {
-            font-size: 26px;
         }
     }
 }

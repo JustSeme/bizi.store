@@ -88,27 +88,57 @@
     font-size: 36px;
   }
 }
-@media (max-width: 1025px) {
-  .header__content a {
-    font-size: 23px;
+@media (max-width: 2000px) {
+  #solutions .carousel-item {
+    height: auto;
   }
-  footer .footer__content .footer__menu a {
-    font-size: 20px;
+}
+@media (max-width: 1350px) {
+  #solutions .solutions__title__text {
+    font-size: 36px;
   }
-  #instruction .description__button__consult {
-    font-size: 27px;
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
+    width: 120px;
   }
-  #instruction .instruction__cards__flex .cards__card__block:nth-child(5) {
-    margin-bottom: 35px;
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__text__caps {
+    font-size: 18px;
   }
-  #instruction .instruction__cards__flex .cards__card__img {
-    position: absolute;
-    top: 650px;
-    left: 45%;
-    margin-left: 0;
+}
+@media (max-width: 1270px) {
+  .header__content {
+    font-size: 24px;
   }
-  #about .about__button__desc {
-    width: 140%;
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
+    width: 40%;
+    padding: 20px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block:not(:nth-child(1), :nth-child(2)) {
+    margin-top: 20px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block:nth-child(5) {
+    text-align: center;
+    width: 85%;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__digit__number {
+    display: none;
+  }
+  #tariffs {
+    margin-bottom: 50px;
+  }
+  #tariffs .tariffs__grid__wrapper {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+  .footer__content {
+    font-size: 24px;
+  }
+  .footer__content button {
+    padding: 0 5px;
+    font-size: 24px;
   }
 }
 @media (max-width: 961px) {
