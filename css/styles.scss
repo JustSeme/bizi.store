@@ -63,7 +63,7 @@ section {
 #solutions {
     margin: 0;
     padding: 0 120px;
-    padding-top: 180px;
+    padding-top: 120px;
     padding-bottom: 75px;
     text-align: center;
 
@@ -76,7 +76,7 @@ section {
     }
 
     .solutions__button__popup {
-        width: 553px;
+        width: 565px;
         height: 75px;
     }
 
@@ -142,6 +142,7 @@ section {
     .instruction__block__description {
         display: flex;
         align-items: right;
+        margin-bottom: 100px;
         .description__desc__block {
             display: flex;
             flex-direction: column;
@@ -149,6 +150,9 @@ section {
             .description__title__text {
                 max-width: 530px;
                 margin-bottom: 70px;
+                .chut-ponizhe {
+                    line-height: 70px;
+                }
             }
         }
         .instruction__img__wrapper {

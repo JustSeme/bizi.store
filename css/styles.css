@@ -59,7 +59,7 @@ section {
 #solutions {
   margin: 0;
   padding: 0 120px;
-  padding-top: 180px;
+  padding-top: 120px;
   padding-bottom: 75px;
   text-align: center;
 }
@@ -70,7 +70,7 @@ section {
   margin-bottom: 71px;
 }
 #solutions .solutions__button__popup {
-  width: 553px;
+  width: 565px;
   height: 75px;
 }
 #solutions .carousel-item {
@@ -134,6 +134,7 @@ section {
 #instruction .instruction__block__description {
   display: flex;
   align-items: right;
+  margin-bottom: 100px;
 }
 #instruction .instruction__block__description .description__desc__block {
   display: flex;
@@ -143,6 +144,9 @@ section {
 #instruction .instruction__block__description .description__desc__block .description__title__text {
   max-width: 530px;
   margin-bottom: 70px;
+}
+#instruction .instruction__block__description .description__desc__block .description__title__text .chut-ponizhe {
+  line-height: 70px;
 }
 #instruction .instruction__block__description .instruction__img__wrapper {
   margin-left: auto;

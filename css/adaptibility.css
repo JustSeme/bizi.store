@@ -1,4 +1,9 @@
-@media (max-width: 2560px) {
+@media (min-width: 2503px) and (max-width: 2560px) {
+  .owl-carousel .carousel-item .slide__info__block .info__title__text {
+    font-size: 28px !important;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2560px) {
   header {
     height: 100px;
   }
@@ -19,10 +24,10 @@
     font-weight: 400;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block {
-    font-size: 26px;
+    font-size: 24px;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__title__text {
-    font-size: 28px;
+    font-size: 26px;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper .info__button {
     font-size: 30px;

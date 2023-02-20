@@ -33,7 +33,7 @@ $(document).ready(function () {
         }
     })
 
-    $('.header__content .header__menu a[href*="#"]').on('click', function (e) {
+    $('.header__content a[href*="#"]').on('click', function (e) {
         e.preventDefault()
         let anchor = $(this)
         $('html, body').stop().animate({
@@ -41,7 +41,7 @@ $(document).ready(function () {
         }, 1000)
     })
 
-    $('.footer__content .footer__menu a[href*="#"]').on('click', function (e) {
+    $('.footer__content a[href*="#"]').on('click', function (e) {
         e.preventDefault()
         let anchor = $(this)
         $('html, body').stop().animate({
