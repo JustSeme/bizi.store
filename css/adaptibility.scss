@@ -1,5 +1,129 @@
 
 @media (max-width: 2560px) {
+    header {
+        height: 100px;
+        .header__content {
+            font-size: 40px;
+            .header__menu {
+                button {
+                    height: 60px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+
+    #solutions {
+        .solutions__title__text {
+            font-size: 60px;
+        }
+        .owl-carousel {
+            .carousel-item {
+                .slide__marker__img {
+                    width: 90px;
+                    height: 90px;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                
+                .slide__info__block {
+                    font-size: 26px;
+                    .info__title__text {
+                        font-size: 28px;
+                    }
+                    .info__button__wrapper {
+                        .info__button {
+                            font-size: 30px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #instruction {
+        .instruction__block__description {
+            .description__desc__block {
+                .description__title__text {
+                    font-size: 60px;
+                }
+                .descrtiption__desc__text {
+                    font-size: 35px;
+                }
+            }
+        }
+
+        .instruction__cards__wrapper {
+            .cards__title__text {
+                font-size: 70px;
+            }
+            .cards__flex__wrapper {
+                .cards__card__block {
+                    .card__text__caps {
+                        font-size: 30px;
+                    }
+                }
+            }
+            .instruction__consult__button {
+                font-size: 40px;
+            }
+            .crystall-right {
+                height: auto;
+                width: auto;
+            }
+            .pig-left {
+                width: 300px;
+                height: 300px;
+                bottom: -120px;
+            }
+        }
+    }
+
+    #tariffs {
+        .tariffs__text__title {
+            font-size: 70px;
+        }
+
+        .tariffs__grid__wrapper {
+            .tariffs__flex__wrapper {
+                .tariffs__block__tariff {
+                    width: 420px;
+                    height: 650px;
+                    .tariff__text__title {
+                        font-size: 30px;
+                    }
+                    .tariff__text__price {
+                        font-size: 70px;
+                    }
+                    .tariff__text__desc {
+                        width: auto;
+                        height: 120px;
+                        font-size: 26px;
+                    }
+                    .tariff__tags__wrapper {
+                        .tariff__tag__item {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer__content {
+            .footer__logo {
+                font-size: 42px;
+            }
+            .footer__button__consult {
+                font-size: 40px;
+            }
+            a {
+                font-size: 36px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1025px) {

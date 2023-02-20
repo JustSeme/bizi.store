@@ -159,7 +159,6 @@ section {
 #instruction .instruction__cards__wrapper .cards__flex__wrapper {
   display: flex;
   height: 230px;
-  max-width: 1600px;
   margin-bottom: 68px;
 }
 #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
