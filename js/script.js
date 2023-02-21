@@ -16,13 +16,9 @@ $(document).ready(function () {
             1150: {
                 items: 3
             },
-            700: {
+            500: {
                 items: 2,
                 margin: 10,
-                dots: false
-            },
-            660: {
-                items: 1,
                 dots: false
             },
             320: {

@@ -377,6 +377,13 @@ $black_bg: #303030;
             }
         }
         .instruction__cards__wrapper {
+            .instruction__consult__button {
+                padding: 14px 43px 20px 41px;
+                font-size: 15px;
+                line-height: 0;
+                height: 30px;
+                width: 235px;
+            }
             .pig-left {
                 left: -45px;
             }
@@ -420,10 +427,166 @@ $black_bg: #303030;
 
     footer {
         height: 30px;
+        padding: 14px 23px 45px 15px;
         .footer__content {
             font-size: 16px;
             button {
                 font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 629px) {
+    #solutions {
+        padding-top: 100px;
+        padding-bottom: 36px;
+        .solutions__title__text {
+            font-size: 26px;
+            width: 330px;
+            margin-bottom: 37px;
+        }
+        .owl-carousel {
+            margin-bottom: 41px;
+            .carousel-item {
+                .slide__info__block {
+                    font-size: 15px;
+                    .info__button__wrapper {
+                        margin-top: au;
+                        .info__button {
+                            height: 25px;
+                            width: 130px;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #instruction {
+        margin-bottom: 141px;
+        .instruction__block__description {
+            .description__desc__block {
+                .description__title__text {
+                    max-width: 275px;
+                    font-size: 25px;
+                    .chut-ponizhe {
+                        line-height: 0px;
+                    }
+                }
+                .descrtiption__desc__text {
+                    font-size: 15px;
+                    max-width: 191px;
+                }
+            }
+        }
+        .instruction__cards__wrapper {
+            .cards__flex__wrapper {
+                margin-bottom: 200px;
+                .cards__card__block {
+                    width: 100%;
+                    min-height: 35px;
+                    margin-left: 0;
+                    &:not(:first-child) {
+                        margin-top: 10px;
+                    }
+                    &:nth-child(5) {
+                        width: 100%;
+                    }
+                }
+            }
+            .pig-left {
+                left: 155px;
+                bottom: -180px;
+            }
+            .crystall-right {
+                display: none;
+            }
+        }
+    }
+
+    #tariffs {
+        .tariffs__text__title {
+            font-size: 25px;
+            text-align: left;
+            max-width: 337px;
+            margin-top: 18px;
+        }
+        .tariffs__grid__wrapper {
+            .tariffs__flex__wrapper {
+                .tariffs__block__tariff {
+                    text-align: left;
+                    .tariff__text__title {
+                        font-size: 18px;
+                    }
+                    .tariff__text__price {
+                        font-size: 50px;
+                    }
+                    .tariff__text__desc {
+                        font-size: 16px;
+                    }
+                    hr {
+                        width: 100%;
+                    }
+                }
+            }
+            .tariffs__img__wrapper {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #about {
+        .about__text__title {
+            font-size: 25px;
+            padding: 0;
+        }
+        .about__grid__description {
+            display: block;
+            position: relative;
+            .grid__description__wrapper {
+                .about__text__description {
+                    max-width: 500px;
+                    margin-top: 18px;
+                }
+            }
+            .grid__img__wrapper {
+                position: absolute;
+                right: -15px;
+                top: 110px;
+                width: 200px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #questions {
+        .questions__text__title {
+            max-width: 282px;
+            font-size: 25px;
+        }
+        .aq__block__wrapper {
+            font-size: 15px;
+            .question__text__title {
+                padding-bottom: 10px;
+            }
+            .answer__text__title {
+                margin: 0;
+            }
+        }
+    }
+
+    footer {
+        .footer__content {
+            .footer__menu {
+                .footer__button__consult {
+                    height: 30px;
+                }
             }
         }
     }

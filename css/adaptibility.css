@@ -266,6 +266,13 @@
   #instruction .instruction__block__description .instruction__img__wrapper {
     right: -15px;
   }
+  #instruction .instruction__cards__wrapper .instruction__consult__button {
+    padding: 14px 43px 20px 41px;
+    font-size: 15px;
+    line-height: 0;
+    height: 30px;
+    width: 235px;
+  }
   #instruction .instruction__cards__wrapper .pig-left {
     left: -45px;
   }
@@ -301,11 +308,133 @@
   }
   footer {
     height: 30px;
+    padding: 14px 23px 45px 15px;
   }
   footer .footer__content {
     font-size: 16px;
   }
   footer .footer__content button {
     font-size: 16px;
+  }
+}
+@media (max-width: 629px) {
+  #solutions {
+    padding-top: 100px;
+    padding-bottom: 36px;
+  }
+  #solutions .solutions__title__text {
+    font-size: 26px;
+    width: 330px;
+    margin-bottom: 37px;
+  }
+  #solutions .owl-carousel {
+    margin-bottom: 41px;
+  }
+  #solutions .owl-carousel .carousel-item .slide__info__block {
+    font-size: 15px;
+  }
+  #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper {
+    margin-top: au;
+  }
+  #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper .info__button {
+    height: 25px;
+    width: 130px;
+    font-size: 17px;
+  }
+  #instruction {
+    margin-bottom: 141px;
+  }
+  #instruction .instruction__block__description .description__desc__block .description__title__text {
+    max-width: 275px;
+    font-size: 25px;
+  }
+  #instruction .instruction__block__description .description__desc__block .description__title__text .chut-ponizhe {
+    line-height: 0px;
+  }
+  #instruction .instruction__block__description .description__desc__block .descrtiption__desc__text {
+    font-size: 15px;
+    max-width: 191px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper {
+    margin-bottom: 200px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
+    width: 100%;
+    min-height: 35px;
+    margin-left: 0;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block:not(:first-child) {
+    margin-top: 10px;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block:nth-child(5) {
+    width: 100%;
+  }
+  #instruction .instruction__cards__wrapper .pig-left {
+    left: 155px;
+    bottom: -180px;
+  }
+  #instruction .instruction__cards__wrapper .crystall-right {
+    display: none;
+  }
+  #tariffs .tariffs__text__title {
+    font-size: 25px;
+    text-align: left;
+    max-width: 337px;
+    margin-top: 18px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff {
+    text-align: left;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__title {
+    font-size: 18px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__price {
+    font-size: 50px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__desc {
+    font-size: 16px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff hr {
+    width: 100%;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper img {
+    width: 100%;
+  }
+  #about .about__text__title {
+    font-size: 25px;
+    padding: 0;
+  }
+  #about .about__grid__description {
+    display: block;
+    position: relative;
+  }
+  #about .about__grid__description .grid__description__wrapper .about__text__description {
+    max-width: 500px;
+    margin-top: 18px;
+  }
+  #about .about__grid__description .grid__img__wrapper {
+    position: absolute;
+    right: -15px;
+    top: 110px;
+    width: 200px;
+  }
+  #about .about__grid__description .grid__img__wrapper img {
+    width: 100%;
+  }
+  #questions .questions__text__title {
+    max-width: 282px;
+    font-size: 25px;
+  }
+  #questions .aq__block__wrapper {
+    font-size: 15px;
+  }
+  #questions .aq__block__wrapper .question__text__title {
+    padding-bottom: 10px;
+  }
+  #questions .aq__block__wrapper .answer__text__title {
+    margin: 0;
+  }
+  footer .footer__content .footer__menu .footer__button__consult {
+    height: 30px;
   }
 }
