@@ -194,6 +194,9 @@
                     }
                 }
             }
+            .pig-left {
+                left: -80px;
+            }
         }
     }
 
@@ -201,7 +204,24 @@
         margin-bottom: 50px;
         .tariffs__grid__wrapper {
             grid-template-columns: repeat(auto-fill, 100%);
+            .tariffs__img__wrapper {
+                width: 100%;
+            }
         }
+    }
+
+    #about {
+        .about__grid__tags {
+            .grid__img__wrapper {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    #questions {
+        padding-bottom: 50px;
     }
 
     .footer__content {
@@ -214,46 +234,50 @@
 }
 
 @media (max-width: 961px) {
-    header, section, footer {
-        margin: 0 10px;
-    }
-    
-    button {
-        padding: 20px 70px;
+    header {
+        height: 100px;
+        .header__content {
+            flex-direction: column;
+            .header__menu {
+                justify-content: center;
+            }
+        }
     }
 
-    header {
-        height: 60px;
-        .header__content {
-            position: relative;
-            margin: 0;
-            .header__logo {
-                position: absolute;
-                display: inline;
-                left: 0;
-                top: 16px;
-                font-size: 18px;
-            }
-    
-            .header__menu {
-                margin-top: 40px;
-                margin-bottom: 0;
-                
-                a {
-                    font-size: 17px;
-                    margin-left: 0;
-                    flex: 1 1 auto;
+    #solutions {
+        .owl-carousel {
+            margin-bottom: 10px;
+            .owl-item {
+                height: 536px;
+                .info__title__text {
+                    font-size: 20px;
                 }
             }
         }
+    }
 
-        button {
+    #instruction {
+        .instruction__block__description {
+            .description__desc__block {
+                .description__title__text {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .instruction__img__wrapper {
+            width: 500px;
+            position: absolute;
+            top: 60px;
+            right: -175px;
+        }
+        .crystall-right {
             display: none;
         }
     }
 
     #tariffs {
-        width: 100%;
+        margin: 0 23px;
+        margin-bottom: 40px;
         .tariffs__text__title {
             font-size: 30px;
             margin-bottom: 21px;
@@ -274,21 +298,6 @@
                     margin-left: 0 !important;
                 }
             }
-
-            .tariffs__img__wrapper {
-                img {
-                    width: 100%;
-                }
-            }
         }
-    }
-
-
-    //will be remove
-    .about__button {
-        display: none;
-    }
-    footer {
-        display: none;
     }
 }

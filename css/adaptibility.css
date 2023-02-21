@@ -127,11 +127,23 @@
   #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__digit__number {
     display: none;
   }
+  #instruction .instruction__cards__wrapper .pig-left {
+    left: -80px;
+  }
   #tariffs {
     margin-bottom: 50px;
   }
   #tariffs .tariffs__grid__wrapper {
     grid-template-columns: repeat(auto-fill, 100%);
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper {
+    width: 100%;
+  }
+  #about .about__grid__tags .grid__img__wrapper img {
+    width: 80%;
+  }
+  #questions {
+    padding-bottom: 50px;
   }
   .footer__content {
     font-size: 24px;
@@ -142,40 +154,39 @@
   }
 }
 @media (max-width: 961px) {
-  header, section, footer {
-    margin: 0 10px;
-  }
-  button {
-    padding: 20px 70px;
-  }
   header {
-    height: 60px;
+    height: 100px;
   }
   header .header__content {
-    position: relative;
-    margin: 0;
-  }
-  header .header__content .header__logo {
-    position: absolute;
-    display: inline;
-    left: 0;
-    top: 16px;
-    font-size: 18px;
+    flex-direction: column;
   }
   header .header__content .header__menu {
-    margin-top: 40px;
-    margin-bottom: 0;
+    justify-content: center;
   }
-  header .header__content .header__menu a {
-    font-size: 17px;
-    margin-left: 0;
-    flex: 1 1 auto;
+  #solutions .owl-carousel {
+    margin-bottom: 10px;
   }
-  header button {
+  #solutions .owl-carousel .owl-item {
+    height: 536px;
+  }
+  #solutions .owl-carousel .owl-item .info__title__text {
+    font-size: 20px;
+  }
+  #instruction .instruction__block__description .description__desc__block .description__title__text {
+    margin-bottom: 30px;
+  }
+  #instruction .instruction__img__wrapper {
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    right: -175px;
+  }
+  #instruction .crystall-right {
     display: none;
   }
   #tariffs {
-    width: 100%;
+    margin: 0 23px;
+    margin-bottom: 40px;
   }
   #tariffs .tariffs__text__title {
     font-size: 30px;
@@ -196,14 +207,5 @@
     height: 598px;
     margin-bottom: 18px !important;
     margin-left: 0 !important;
-  }
-  #tariffs .tariffs__grid__wrapper .tariffs__img__wrapper img {
-    width: 100%;
-  }
-  .about__button {
-    display: none;
-  }
-  footer {
-    display: none;
   }
 }
