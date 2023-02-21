@@ -16,8 +16,17 @@ $(document).ready(function () {
             1150: {
                 items: 3
             },
-            840: {
+            700: {
                 items: 2,
+                margin: 10,
+                dots: false
+            },
+            660: {
+                items: 1,
+                dots: false
+            },
+            320: {
+                items: 1,
                 dots: false
             }
         }
@@ -38,7 +47,7 @@ $(document).ready(function () {
         e.preventDefault()
         let anchor = $(this)
         $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top - 110
+            scrollTop: $(anchor.attr('href')).offset().top - 100
         }, 1000)
     })
 
@@ -46,7 +55,7 @@ $(document).ready(function () {
         e.preventDefault()
         let anchor = $(this)
         $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top - 110
+            scrollTop: $(anchor.attr('href')).offset().top - 100
         }, 1000)
     })
 });

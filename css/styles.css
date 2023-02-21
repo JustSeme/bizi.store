@@ -321,8 +321,8 @@ section {
 
 #questions {
   text-align: center;
-  padding-top: 82px;
-  padding-bottom: 122px;
+  margin-top: 82px;
+  margin-bottom: 122px;
 }
 #questions .questions__text__title {
   margin-bottom: 122px;

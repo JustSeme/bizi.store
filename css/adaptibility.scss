@@ -221,7 +221,7 @@
     }
 
     #questions {
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .footer__content {
@@ -246,11 +246,11 @@
 
     #solutions {
         .owl-carousel {
-            margin-bottom: 10px;
+            margin-bottom: 51px;
             .owl-item {
-                height: 536px;
                 .info__title__text {
-                    font-size: 20px;
+                    white-space: nowrap;
+                    font-size: 17px;
                 }
             }
         }
@@ -264,14 +264,25 @@
                 }
             }
         }
-        .instruction__img__wrapper {
-            width: 500px;
-            position: absolute;
-            top: 60px;
-            right: -175px;
+        .instruction__cards__wrapper {
+            .cards__flex__wrapper {
+                margin-bottom: 120px;
+            }
+            .instruction__consult__button {
+                margin-top: 20px;
+            }
+            .pig-left {
+                left: -120px;
+            }
+            .crystall-right {
+                right: -50px;
+            }
         }
-        .crystall-right {
-            display: none;
+        .instruction__img__wrapper {
+            width: 330px;
+            position: absolute;
+            top: 40px;
+            right: -120px;
         }
     }
 
@@ -298,6 +309,71 @@
                     margin-left: 0 !important;
                 }
             }
+        }
+    }
+
+    #about {
+        .about__grid__description {
+            margin-bottom: 47px;
+        }
+    }
+}
+
+@media (max-width: 779px) {
+    #solutions {
+        padding: 52px 15px;
+        padding-top: 120px;
+        .solutions__title__text {
+            text-align: left;
+        }
+        .solutions__button__popup {
+            padding: 14px 20px 15px 15px;
+            line-height: 0;
+            width: 260px;
+            height: 30px;
+            font-size: 15px;
+        }
+    }
+
+    #instruction {
+        margin: 0 15px;
+        margin-top: 47px;
+        margin-bottom: 50px;
+        .instruction__block__description {
+            .instruction__img__wrapper {
+                right: -15px;
+            }
+        }
+        .instruction__cards__wrapper {
+            .pig-left {
+                left: -45px;
+            }
+            .crystall-right {
+                right: 20px;
+            }
+        }
+    }
+
+    #tariffs {
+        .tariffs__text__title {
+            margin-bottom: 30px;
+        }
+    }
+
+    #about {
+        padding: 0 15px;
+        padding-top: 14px;
+        padding-bottom: 26px;
+    }
+
+    #questions {
+        margin: 53px 15px;
+        .questions__text__title {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .aq__block__wrapper {
+            background: $accent;
         }
     }
 }
