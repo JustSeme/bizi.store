@@ -355,16 +355,14 @@ footer .footer__content {
 }
 footer .footer__content .footer__button__consult {
   margin-left: 40px;
-  margin-right: 93px;
 }
 footer .footer__content .footer__menu {
+  margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 footer .footer__content .footer__menu a {
   text-align: center;
-}
-footer .footer__content .footer__menu a:nth-child(2) {
   margin-left: 84px;
 }

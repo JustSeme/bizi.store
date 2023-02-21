@@ -398,18 +398,16 @@ footer {
         
         .footer__button__consult {
             margin-left: 40px;
-            margin-right: 93px;
         }
         
         .footer__menu {
+            margin-left: auto;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: right;
             a {
                 text-align: center;
-                &:nth-child(2) {
-                    margin-left: 84px;
-                }
+                margin-left: 84px;
             }
         }
     }

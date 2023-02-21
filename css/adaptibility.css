@@ -218,8 +218,32 @@
   #about .about__grid__description {
     margin-bottom: 47px;
   }
+  footer .footer__content {
+    flex-direction: column;
+  }
+  footer .footer__content .footer__menu {
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+  footer .footer__content .footer__menu a {
+    margin-left: 33px;
+  }
+  footer .footer__content .footer__menu a:nth-child(1) {
+    margin-left: 0;
+  }
+  footer .footer__content .footer__menu .footer__button__consult {
+    height: 50px;
+  }
 }
 @media (max-width: 779px) {
+  .header__content {
+    font-size: 16px;
+  }
+  .header__content button {
+    font-size: 16px;
+  }
   #solutions {
     padding: 52px 15px;
     padding-top: 120px;
@@ -262,5 +286,26 @@
   #questions .questions__text__title {
     text-align: left;
     margin-bottom: 30px;
+  }
+  #questions .aq__block__wrapper {
+    vertical-align: middle;
+    padding: 10px 30px;
+    padding-left: 16px;
+    color: white;
+    background: #8647EA;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  #questions hr {
+    display: none;
+  }
+  footer {
+    height: 30px;
+  }
+  footer .footer__content {
+    font-size: 16px;
+  }
+  footer .footer__content button {
+    font-size: 16px;
   }
 }
