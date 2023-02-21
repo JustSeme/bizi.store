@@ -155,6 +155,11 @@ $black_bg: #303030;
         .solutions__title__text {
             font-size: 36px;
         }
+        .owl-carousel {
+            .carousel-item {
+                min-height: 518px;
+            }
+        }
     }
 
     #instruction {
@@ -174,6 +179,15 @@ $black_bg: #303030;
 @media (max-width: 1270px) {
     .header__content {
         font-size: 24px;
+    }
+
+    #solutions {
+        .owl-carousel {
+            margin-bottom: 51px;
+            .carousel-item {
+                min-height: 538px;
+            }
+        }
     }
 
     #instruction {
@@ -549,18 +563,44 @@ $black_bg: #303030;
             position: relative;
             .grid__description__wrapper {
                 .about__text__description {
-                    max-width: 500px;
+                    max-width: 350px;
                     margin-top: 18px;
                 }
             }
             .grid__img__wrapper {
                 position: absolute;
                 right: -15px;
-                top: 110px;
+                top: 150px;
                 width: 200px;
                 img {
                     width: 100%;
                 }
+            }
+        }
+        .about__grid__tags {
+            display: block;
+            text-align: center;
+            .about__text__description {
+                max-width: 270px;
+            }
+            .grid__tags__wrapper {
+                .about__tags__list {
+                    li {
+                        margin-left: 15px;
+                        img {
+                            width: 8px;
+                            left: -15px;
+                            top: 40%;
+                        }
+                    }
+                }
+            }
+            .about__button {
+                margin-top: 27px;
+                line-height: 0;
+                font-size: 15px;
+                height: 30px;
+                width: 215px;
             }
         }
     }

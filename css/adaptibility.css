@@ -97,6 +97,9 @@
   #solutions .solutions__title__text {
     font-size: 36px;
   }
+  #solutions .owl-carousel .carousel-item {
+    min-height: 518px;
+  }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block {
     width: 120px;
   }
@@ -107,6 +110,12 @@
 @media (max-width: 1270px) {
   .header__content {
     font-size: 24px;
+  }
+  #solutions .owl-carousel {
+    margin-bottom: 51px;
+  }
+  #solutions .owl-carousel .carousel-item {
+    min-height: 538px;
   }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper {
     justify-content: center;
@@ -409,17 +418,39 @@
     position: relative;
   }
   #about .about__grid__description .grid__description__wrapper .about__text__description {
-    max-width: 500px;
+    max-width: 350px;
     margin-top: 18px;
   }
   #about .about__grid__description .grid__img__wrapper {
     position: absolute;
     right: -15px;
-    top: 110px;
+    top: 150px;
     width: 200px;
   }
   #about .about__grid__description .grid__img__wrapper img {
     width: 100%;
+  }
+  #about .about__grid__tags {
+    display: block;
+    text-align: center;
+  }
+  #about .about__grid__tags .about__text__description {
+    max-width: 270px;
+  }
+  #about .about__grid__tags .grid__tags__wrapper .about__tags__list li {
+    margin-left: 15px;
+  }
+  #about .about__grid__tags .grid__tags__wrapper .about__tags__list li img {
+    width: 8px;
+    left: -15px;
+    top: 40%;
+  }
+  #about .about__grid__tags .about__button {
+    margin-top: 27px;
+    line-height: 0;
+    font-size: 15px;
+    height: 30px;
+    width: 215px;
   }
   #questions .questions__text__title {
     max-width: 282px;
