@@ -25,6 +25,7 @@
 
 .modal__content {
   border: 3px solid #000000;
+  min-width: 300px;
   max-width: 400px;
   padding: 0 25px;
   padding-top: 20px;

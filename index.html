@@ -40,7 +40,7 @@
             <div class="header__menu">
                 <a href="#about">Что это?</a>
                 <a href="#tariffs">Тарифы</a>
-                <button class="js-consult-modal">Консультация</button>
+                <button class="js-modal-3">Консультация</button>
             </div>
         </div>
     </header>
@@ -67,7 +67,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
@@ -191,12 +191,12 @@
                         <span class="info__gray__text">Окупятся: </span>за <span class="accent-text">6 </span>месяцев
                     </h2>
                     <div class="info__button__wrapper">
-                        <button class="info__button">Купить</button>
+                        <button class="js-modal-2 info__button">Купить</button>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="solutions__button__popup">Что входит в состав бизнеса</button>
+        <button class="js-modal-2 solutions__button__popup">Что входит в состав бизнеса</button>
     </section>
 
     <section id="instruction">
@@ -236,7 +236,7 @@
                     <h2 class="card__text__caps">В ДАЛЬНЕЙШЕМ  ВЫ лично ВЕДЕТЕ СВОЙ  УСПЕШНЫЙ БИЗНЕС</h2>
                 </div>
             </div>
-            <button class="instruction__consult__button">Нужна консультация</button>
+            <button class="js-modal-3 instruction__consult__button">Нужна консультация</button>
             <img class="pig-left" src="./img/instruction-pig.svg">
             <img class="crystall-right" src="./img/instruction-crystall.svg" alt="">
         </div>
@@ -268,7 +268,7 @@
                             <img src="/icons/checkmark_icon.png">Пошаговый мануал
                         </div>
                     </div>
-                    <button class="tariff__button__solo">Запущу сам</button>
+                    <button class="js-modal-4 tariff__button__solo">Запущу сам</button>
                 </div>
                 <div class="tariffs__block__tariff">
                     <p class="tariff__text__title">Тариф “Полный”</p>
@@ -292,7 +292,7 @@
                             <img src="/icons/checkmark_icon.png">Запуск бизнеса
                         </div>
                     </div>
-                    <button class="tariff__button__help">Нужна помощь</button>
+                    <button class="js-modal-4 tariff__button__help">Нужна помощь</button>
                 </div>
             </div>
             <div class="tariffs__img__wrapper">
@@ -377,16 +377,15 @@
             <div class="footer__menu">
                 <a href="#about">Что это?</a>
                 <a href="#tariffs">Тарифы</a>
-                <button class="footer__button__consult">Консультация</button>
+                <button class="footer__button__consult js-modal-3">Консультация</button>
             </div>
         </div>
     </footer>
 
-    <div class="modal modal-consult">
+    <div class="modal modal-2">
         <div class="modal__content">
             <div class="modal__header">
-                <h1 class="modal__title__text">Запустить бизнес-проект</h1>
-                <p class="modal__desc__text">Заполните форму, чтобы получить полное описание этого бизнеса</p>
+                <h1 class="modal__title__text">Заполните форму, чтобы получить полное описание этого бизнеса</h1>   
             </div>
             <div class="modal__body">
                 <div class="input__wrapper">
@@ -411,24 +410,61 @@
         </div>
     </div>
 
-    <!-- <div class="modal modal-start">
+    <div class="modal modal-3">
         <div class="modal__content">
             <div class="modal__header">
-                <h1 class="modal__title__text">Запустить бизнес-проект</h1>
             </div>
             <div class="modal__body">
-                <label class="attachments__slider">
-                    Сколько готовы вложить на старте?
-                </label>
-            </div>
-            <div class="modal__footer">
-                <div class="about-btns">
-                    <button type="button" id="send-form-modal" class="site-btn">Send message</button>
-                    <button type="button" id="back" class="site-btn gray-btn">Back to CV</button>
+                <div class="input__wrapper">
+                    <label for="name" class="consult__name__label">Ваше имя</label>
+                    <input id="name" type="text" class="consult__name__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="city" class="consult__city__label">Ваш вопрос</label>
+                    <input id="city" type="text" class="consult__city__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                    <input id="contact" type="text" class="consult__contact__input">
                 </div>
             </div>
+            <div class="modal__footer">
+                <div class="modal__btn__wrapper">
+                    <button>Отправить</button>
+                </div>
+                <img src="./img/FAQ-modal-bg.svg" alt="">
+            </div>
         </div>
-    </div> -->
+    </div>
+
+    <div class="modal modal-4">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h1 class="modal__title__text">Запустить бизнес</h1>
+                <p class="modal__desc__text">Заполните форму, чтобы оставить заявку</p>
+            </div>
+            <div class="modal__body">
+                <div class="input__wrapper">
+                    <label for="name" class="consult__name__label">Ваше имя</label>
+                    <input id="name" type="text" class="consult__name__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="city" class="consult__city__label">Ваш город</label>
+                    <input id="city" type="text" class="consult__city__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                    <input id="contact" type="text" class="consult__contact__input">
+                </div>
+            </div>
+            <div class="modal__footer">
+                <div class="modal__btn__wrapper">
+                    <button>Отправить</button>
+                </div>
+                <img src="./img/FAQ-modal-bg.svg" alt="">
+            </div>
+        </div>
+    </div>
 
     <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>

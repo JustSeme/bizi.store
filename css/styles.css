@@ -242,7 +242,7 @@ section {
 #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff button {
   position: absolute;
   bottom: 40px;
-  left: 15%;
+  left: 10%;
   width: 292px;
   height: 55px;
 }

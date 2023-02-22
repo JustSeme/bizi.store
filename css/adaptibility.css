@@ -224,6 +224,9 @@
     margin-bottom: 18px !important;
     margin-left: 0 !important;
   }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff button {
+    left: 15%;
+  }
   #about .about__grid__description {
     margin-bottom: 47px;
   }

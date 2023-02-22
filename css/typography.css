@@ -153,6 +153,9 @@ a:hover {
   color: white;
   font-family: "IBM Plex Sans";
 }
+#tariffs .tariffs__block__tariff p {
+  font-family: "IBM Plex Sans";
+}
 #tariffs .tariffs__block__tariff .tariff__text__title {
   font-size: 18px;
 }

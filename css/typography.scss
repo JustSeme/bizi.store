@@ -186,6 +186,9 @@ a {
         background: $black_bg;
         color: white;
         font-family: 'IBM Plex Sans';
+        p {
+            font-family: 'IBM Plex Sans';
+        }
 
         .tariff__text__title {
             font-size: 18px;

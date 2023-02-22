@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    //carousel
     $('#js-carousel-1').owlCarousel({
         items: 4,
         dotsEach: 3,
@@ -34,6 +35,8 @@ $(document).ready(function () {
         }
     });
 
+    //answers and questions swap logic
+
     $('.js-quest').on('click', function () {
         const anwsData = $(this).attr('data-answ')
         const hiddenElem = $(`.js-answ[data-answ="${anwsData}"]:hidden`)
@@ -61,13 +64,35 @@ $(document).ready(function () {
         }, 1000)
     })
 
-    $('.js-consult-modal').on('click', (e) => {
-        e.preventDefault()
-        $('.modal-consult').addClass('show')
-        $('.modal-consult').on('click', () => $('.modal-consult').removeClass('show'))
-        $('#back').on('click', () => $('.modal-consult').removeClass('show'))
+    //modals
+
+    function onModalClose(modalName) {
+        $(modalName).removeClass('show')
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
+    }
+
+    function onModalOpen(modalName, event) {
+        event.preventDefault()
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        })
+        $(modalName).addClass('show')
+        $(modalName).on('click', () => onModalClose(modalName))
+        $('#back').on('click', () => onModalClose(modalName))
         $('.modal__content').on('click', (e) => e.stopPropagation())
-    })
+    }
+
+    $('.js-modal-2').on('click', (e) => onModalOpen('.modal-2', e))
+
+    $('.js-modal-3').on('click', (e) => onModalOpen('.modal-3', e))
+
+    $('.js-modal-4').on('click', (e) => onModalOpen('.modal-4', e))
+
+    //label swap logic
 
     $('label').click(function () {
         let labelID = $(this).attr('for');
@@ -81,9 +106,9 @@ $(document).ready(function () {
     })
 
     $('input').focusout(function () {
-        console.log('hey');
-
-        $(`label[for=${inputID}`).removeClass('hide')
+        if ($(this).val().match(/^\s*$/)) {
+            $(`label[for=${inputID}`).removeClass('hide')
+        }
     })
 
 });
