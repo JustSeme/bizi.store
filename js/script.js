@@ -86,7 +86,11 @@ $(document).ready(function () {
         $('.modal__content').on('click', (e) => e.stopPropagation())
     }
 
-    $('.js-modal-2').on('click', (e) => onModalOpen('.modal-2', e))
+    let productTitle
+    $('.js-modal-2').on('click', function (e) {
+        onModalOpen('.modal-2', e)
+        productTitle = $(this).attr('data-product')
+    })
 
     $('.js-modal-3').on('click', (e) => onModalOpen('.modal-3', e))
 
@@ -111,4 +115,24 @@ $(document).ready(function () {
         }
     })
 
+    $('.js-form-btn-2').click(function () {
+        const buttonDataModal = $(this).attr('data-modal')
+        const data = {
+            name: $(`input[id=name][data-modal=${buttonDataModal}]`).val(),
+            city: $(`input[id=city][data-modal=${buttonDataModal}]`).val(),
+            contact: $(`input[id=contact][data-modal=${buttonDataModal}]`).val(),
+            productTitle: productTitle ? productTitle : 'none'
+        }
+        console.log(data);
+
+        $.ajax({
+            method: "GET",
+            url: "https://first-api-sigma.vercel.app/courses",
+            contentType: 'application/json'
+            /* data: { name: "John", location: "Boston" } */
+        })
+            .done(function (msg) {
+                alert("Data Saved: " + msg);
+            });
+    })
 });
