@@ -58,19 +58,25 @@
         label {
             cursor: text;
             position: absolute;
+            top: 5px;
             color: #000000B2;
+            transition: all 0.3s ease-in-out;
+            pointer-events: visible;
             &.hide {
-                transition: all 0.2s ease-in-out;
-                transform: translateY(-15px);
-                pointer-events: visible;
+                transform: translateY(-19px);
             }
         }
         input {
+            font-size: 15px;
             border: none;
             background-color: inherit;
             width: 95%;
             padding: 7.5px;
+            padding-left: 0;
             border-bottom: 1px solid #000000;
+            &:active, &:focus {
+                outline: 0;
+            }
         }
     }
 }

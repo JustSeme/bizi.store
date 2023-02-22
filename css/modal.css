@@ -57,19 +57,25 @@
 .modal__body .input__wrapper label {
   cursor: text;
   position: absolute;
+  top: 5px;
   color: rgba(0, 0, 0, 0.6980392157);
-}
-.modal__body .input__wrapper label.hide {
-  transition: all 0.2s ease-in-out;
-  transform: translateY(-15px);
+  transition: all 0.3s ease-in-out;
   pointer-events: visible;
 }
+.modal__body .input__wrapper label.hide {
+  transform: translateY(-19px);
+}
 .modal__body .input__wrapper input {
+  font-size: 15px;
   border: none;
   background-color: inherit;
   width: 95%;
   padding: 7.5px;
+  padding-left: 0;
   border-bottom: 1px solid #000000;
+}
+.modal__body .input__wrapper input:active, .modal__body .input__wrapper input:focus {
+  outline: 0;
 }
 
 .modal__footer {

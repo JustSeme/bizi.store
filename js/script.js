@@ -74,9 +74,16 @@ $(document).ready(function () {
         $('#' + labelID).trigger('click');
     });
 
+    let inputID
     $('input').click(function () {
-        let inputID = $(this).attr('id')
-        $(`[for]`).removeClass('hide')
-        $(`[for=${inputID}]`).addClass('hide')
+        inputID = $(this).attr('id')
+        $(`label[for=${inputID}]`).addClass('hide')
     })
+
+    $('input').focusout(function () {
+        console.log('hey');
+
+        $(`label[for=${inputID}`).removeClass('hide')
+    })
+
 });
