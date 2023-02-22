@@ -16,13 +16,19 @@ $(document).ready(function () {
             1150: {
                 items: 3
             },
-            500: {
+            580: {
                 items: 2,
+                margin: 10,
+                dots: false
+            },
+            410: {
+                items: 1.5,
                 margin: 10,
                 dots: false
             },
             320: {
                 items: 1,
+                margin: 10,
                 dots: false
             }
         }

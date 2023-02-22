@@ -452,6 +452,14 @@ $black_bg: #303030;
 }
 
 @media (max-width: 629px) {
+    .header__content {
+        .header__menu {
+            button {
+                height: 30px;
+            }
+        }
+    }
+
     #solutions {
         padding-top: 100px;
         padding-bottom: 36px;
@@ -463,10 +471,10 @@ $black_bg: #303030;
         .owl-carousel {
             margin-bottom: 41px;
             .carousel-item {
+                min-height: auto;
                 .slide__info__block {
                     font-size: 15px;
                     .info__button__wrapper {
-                        margin-top: au;
                         .info__button {
                             height: 25px;
                             width: 130px;
@@ -507,6 +515,9 @@ $black_bg: #303030;
                     }
                     &:nth-child(5) {
                         width: 100%;
+                    }
+                    .card__text__caps {
+                        text-align: left;
                     }
                 }
             }
@@ -579,7 +590,6 @@ $black_bg: #303030;
         }
         .about__grid__tags {
             display: block;
-            text-align: center;
             .about__text__description {
                 max-width: 270px;
             }
@@ -595,12 +605,15 @@ $black_bg: #303030;
                     }
                 }
             }
-            .about__button {
-                margin-top: 27px;
-                line-height: 0;
-                font-size: 15px;
-                height: 30px;
-                width: 215px;
+            .about__btn__wrapper {
+                text-align: center;
+                .about__button {
+                    margin-top: 27px;
+                    line-height: 0;
+                    font-size: 15px;
+                    height: 30px;
+                    width: 215px;
+                }
             }
         }
     }
@@ -626,6 +639,106 @@ $black_bg: #303030;
             .footer__menu {
                 .footer__button__consult {
                     height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .header__content {
+        .header__menu {
+            a {
+                margin-left: 30px;
+            }
+            button {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    #instruction {
+        .instruction__block__description {
+            .instruction__img__wrapper {
+                width: 250px;
+                top: 70px;
+                right: -15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    #instruction {
+        .instruction__block__description {
+            .instruction__img__wrapper {
+                width: 200px;
+                top: 70px;
+                right: -15px;
+            }
+        }
+        .instruction__cards__wrapper {
+            .instruction__consult__button {
+                margin-top: 40px;
+            }
+            .pig-left {
+                left: 90px;
+            }
+        }
+    }
+
+    #tariffs {
+        .tariffs__grid__wrapper {
+            .tariffs__flex__wrapper {
+                .tariffs__block__tariff {
+                    width: 300px;
+                    button {
+                        left: 10%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 385px) {
+    #instruction {
+        .instruction__block__description {
+            .instruction__img__wrapper {
+                width: 150px;
+                top: 70px;
+                right: -15px;
+            }
+        }
+        .instruction__cards__wrapper {
+            .instruction__consult__button {
+                margin-top: 90px;
+            }
+            .pig-left {
+                left: 65px;
+            }
+        }
+    }
+
+    #tariffs {
+        .tariffs__grid__wrapper {
+            .tariffs__flex__wrapper {
+                .tariffs__block__tariff {
+                    width: 90%;
+                    button {
+                        left: 9%;
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        .about__grid__description {
+            .grid__img__wrapper {
+                top: 180px;
+                img {
+                    width: 80%;
                 }
             }
         }

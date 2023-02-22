@@ -327,6 +327,9 @@
   }
 }
 @media (max-width: 629px) {
+  .header__content .header__menu button {
+    height: 30px;
+  }
   #solutions {
     padding-top: 100px;
     padding-bottom: 36px;
@@ -339,11 +342,11 @@
   #solutions .owl-carousel {
     margin-bottom: 41px;
   }
+  #solutions .owl-carousel .carousel-item {
+    min-height: auto;
+  }
   #solutions .owl-carousel .carousel-item .slide__info__block {
     font-size: 15px;
-  }
-  #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper {
-    margin-top: au;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper .info__button {
     height: 25px;
@@ -377,6 +380,9 @@
   }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block:nth-child(5) {
     width: 100%;
+  }
+  #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__text__caps {
+    text-align: left;
   }
   #instruction .instruction__cards__wrapper .pig-left {
     left: 155px;
@@ -432,7 +438,6 @@
   }
   #about .about__grid__tags {
     display: block;
-    text-align: center;
   }
   #about .about__grid__tags .about__text__description {
     max-width: 270px;
@@ -445,7 +450,10 @@
     left: -15px;
     top: 40%;
   }
-  #about .about__grid__tags .about__button {
+  #about .about__grid__tags .about__btn__wrapper {
+    text-align: center;
+  }
+  #about .about__grid__tags .about__btn__wrapper .about__button {
     margin-top: 27px;
     line-height: 0;
     font-size: 15px;
@@ -467,5 +475,62 @@
   }
   footer .footer__content .footer__menu .footer__button__consult {
     height: 30px;
+  }
+}
+@media (max-width: 525px) {
+  .header__content .header__menu a {
+    margin-left: 30px;
+  }
+  .header__content .header__menu button {
+    margin-left: 30px;
+  }
+  #instruction .instruction__block__description .instruction__img__wrapper {
+    width: 250px;
+    top: 70px;
+    right: -15px;
+  }
+}
+@media (max-width: 440px) {
+  #instruction .instruction__block__description .instruction__img__wrapper {
+    width: 200px;
+    top: 70px;
+    right: -15px;
+  }
+  #instruction .instruction__cards__wrapper .instruction__consult__button {
+    margin-top: 40px;
+  }
+  #instruction .instruction__cards__wrapper .pig-left {
+    left: 90px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff {
+    width: 300px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff button {
+    left: 10%;
+  }
+}
+@media (max-width: 385px) {
+  #instruction .instruction__block__description .instruction__img__wrapper {
+    width: 150px;
+    top: 70px;
+    right: -15px;
+  }
+  #instruction .instruction__cards__wrapper .instruction__consult__button {
+    margin-top: 90px;
+  }
+  #instruction .instruction__cards__wrapper .pig-left {
+    left: 65px;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff {
+    width: 90%;
+  }
+  #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff button {
+    left: 9%;
+  }
+  #about .about__grid__description .grid__img__wrapper {
+    top: 180px;
+  }
+  #about .about__grid__description .grid__img__wrapper img {
+    width: 80%;
   }
 }
