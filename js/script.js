@@ -60,4 +60,23 @@ $(document).ready(function () {
             scrollTop: $(anchor.attr('href')).offset().top - 100
         }, 1000)
     })
+
+    $('.js-consult-modal').on('click', (e) => {
+        e.preventDefault()
+        $('.modal-consult').addClass('show')
+        $('.modal-consult').on('click', () => $('.modal-consult').removeClass('show'))
+        $('#back').on('click', () => $('.modal-consult').removeClass('show'))
+        $('.modal__content').on('click', (e) => e.stopPropagation())
+    })
+
+    $('label').click(function () {
+        let labelID = $(this).attr('for');
+        $('#' + labelID).trigger('click');
+    });
+
+    $('input').click(function () {
+        let inputID = $(this).attr('id')
+        $(`[for]`).removeClass('hide')
+        $(`[for=${inputID}]`).addClass('hide')
+    })
 });

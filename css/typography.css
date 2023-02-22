@@ -26,7 +26,7 @@ body {
   background: #EFF2FC;
 }
 
-h1, h2, button, a, li {
+h1, h2, button, a, li, label, p {
   font-family: "Gosha Sans";
 }
 

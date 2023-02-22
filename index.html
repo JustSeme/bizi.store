@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/adaptibility.css">
+    <link rel="stylesheet" href="./css/modal.css">
 
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <title>bizi.store</title>
@@ -39,7 +40,7 @@
             <div class="header__menu">
                 <a href="#about">Что это?</a>
                 <a href="#tariffs">Тарифы</a>
-                <button>Консультация</button>
+                <button class="js-consult-modal">Консультация</button>
             </div>
         </div>
     </header>
@@ -380,6 +381,54 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal modal-consult">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h1 class="modal__title__text">Запустить бизнес-проект</h1>
+                <p class="modal__desc__text">Заполните форму, чтобы получить полное описание этого бизнеса</p>
+            </div>
+            <div class="modal__body">
+                <div class="input__wrapper">
+                    <label for="name" class="consult__name__label">Ваше имя</label>
+                    <input id="name" type="text" class="consult__name__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="city" class="consult__city__label">Ваш город</label>
+                    <input id="city" type="text" class="consult__city__input">
+                </div>
+                <div class="input__wrapper">
+                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграмм</label>
+                    <input id="contact" type="text" class="consult__contact__input">
+                </div>
+            </div>
+            <div class="modal__footer">
+                <div class="modal__btn__wrapper">
+                    <button>Отправить</button>
+                </div>
+                <img src="./img/FAQ-modal-bg.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="modal modal-start">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h1 class="modal__title__text">Запустить бизнес-проект</h1>
+            </div>
+            <div class="modal__body">
+                <label class="attachments__slider">
+                    Сколько готовы вложить на старте?
+                </label>
+            </div>
+            <div class="modal__footer">
+                <div class="about-btns">
+                    <button type="button" id="send-form-modal" class="site-btn">Send message</button>
+                    <button type="button" id="back" class="site-btn gray-btn">Back to CV</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
