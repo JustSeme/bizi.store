@@ -388,22 +388,24 @@
                 <h1 class="modal__title__text">Заполните форму, чтобы получить полное описание этого бизнеса</h1>   
             </div>
             <div class="modal__body">
-                <div class="input__wrapper">
-                    <label for="name" class="consult__name__label">Ваше имя</label>
-                    <input id="name" data-modal="modal-2" type="text" class="consult__name__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="city" class="consult__city__label">Ваш город</label>
-                    <input id="city" data-modal="modal-2" type="text" class="consult__city__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
-                    <input id="contact" data-modal="modal-2" type="text" class="consult__contact__input">
-                </div>
+                <form class="g-form" id="g-form-2" method="POST" action="" autocomplete="off">
+                    <div class="input__wrapper">
+                        <label for="name" class="consult__name__label">Ваше имя</label>
+                        <input name="Ваше имя" id="name" data-modal="modal-2" type="text" class="consult__name__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="city" class="consult__city__label">Ваш город</label>
+                        <input name="Ваш город" id="city" data-modal="modal-2" type="text" class="consult__city__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                        <input name="Контакты" id="contact" data-modal="modal-2" type="text" class="consult__contact__input">
+                    </div>
+                </form>
             </div>
             <div class="modal__footer">
                 <div class="modal__btn__wrapper">
-                    <button class="js-form-btn-2" data-modal="modal-2">Отправить</button>
+                    <button class="js-form-btn-2" data-form="g-form-2">Отправить</button>
                 </div>
                 <img src="./img/FAQ-modal-bg.svg" alt="">
             </div>
@@ -468,6 +470,7 @@
 
     <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
+    <script src="/g-form/g-form.js"></script>
     <script src="/js/script.js"></script>
 </body>
 </html>
