@@ -9,28 +9,34 @@ $(document).ready(function () {
         margin: 50,
         responsive: {
             2000: {
-                items: 5
+                items: 5,
+                nav: true,
             },
             1650: {
-                items: 4
+                items: 4,
+                nav: true,
             },
             1150: {
-                items: 3
+                items: 3,
+                nav: false,
             },
             580: {
                 items: 2,
                 margin: 10,
-                dots: false
+                dots: false,
+                nav: false,
             },
             410: {
                 items: 1.5,
                 margin: 10,
-                dots: false
+                dots: false,
+                nav: true,
             },
             320: {
                 items: 1,
                 margin: 10,
-                dots: false
+                dots: false,
+                nav: true,
             }
         }
     });
