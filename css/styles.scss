@@ -24,7 +24,6 @@ button {
     height: 75px;
     padding: 10px 70px;
     cursor: pointer;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -266,7 +265,7 @@ section {
                 button {
                     position: absolute;
                     bottom: 40px;
-                    left: 10%;
+                    left: 15%;
                     width: 292px;
                     height: 55px;
                 }

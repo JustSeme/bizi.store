@@ -85,9 +85,9 @@ $(document).ready(function () {
         $('.modal__content').on('click', (e) => e.stopPropagation())
     }
 
-    $('.js-modal-2').on('click', function (e) {
-        onModalOpen('.modal-2', e)
-    })
+    $('.js-modal-1').on('click', (e) => onModalOpen('.modal-1', e))
+
+    $('.js-modal-2').on('click', (e) => onModalOpen('.modal-2', e))
 
     $('.js-modal-3').on('click', (e) => onModalOpen('.modal-3', e))
 
@@ -101,20 +101,40 @@ $(document).ready(function () {
     });
 
     $('input').click(function () {
+        if ($(this).attr('type') === 'checkbox') {
+            return
+        }
         let inputID = $(this).attr('id')
         $(`label[for=${inputID}]`).addClass('hide')
     })
 
     $('input').change(function () {
+        if ($(this).attr('type') === 'checkbox') {
+            return
+        }
         let inputID = $(this).attr('id')
         $(`label[for=${inputID}]`).addClass('hide')
     })
 
     $('input').focusout(function () {
+        if ($(this).attr('type') === 'checkbox') {
+            return
+        }
         let inputID = $(this).attr('id')
         if ($(this).val().match(/^\s*$/)) {
             $(`label[for=${inputID}`).removeClass('hide')
         }
     })
+
+    //limitation
+    $('#attachments1').change(function () {
+        if ($(this).val() < 1000) {
+            $(this).val(1000)
+        }
+        if ($(this).val() > 1000000) {
+            $(this).val(1000000)
+        }
+    })
+
 
 }(jQuery));

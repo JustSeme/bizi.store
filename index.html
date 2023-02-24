@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/modal.css">
 
     <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <title>bizi.store</title>
 </head>
 <body>
@@ -328,7 +329,7 @@
                 <h2 class="about__button__desc">
                     Вам остается только нажать кнопку запуска — и улететь в космос по прибыли:
                 </h2>
-                <button class="about__button">НА СТАРТ !</button>
+                <button class="about__button js-modal-1">НА СТАРТ !</button>
             </div>
             <div class="grid__img__wrapper">
                 <img src="/img/about_bg.svg" alt="">
@@ -382,6 +383,68 @@
             </div>
         </div>
     </footer>
+    
+    <div class="modal modal-1">
+        <div class="modal__content form-1">
+            <div class="modal__header">
+                <h1 class="modal__title__text">Запустить бизнес-проект</h1>
+                <h2 class="modal__response__text g-form-1"></h2>
+            </div>
+            <div class="modal__body">
+                <form class="g-form" id="g-form-1" method="POST" action="" autocomplete="off">
+                    <div class="input__wrapper">
+                        <label for="attachments1" class="consult__name__label hide">Сколько готовы вложить на старте?</label>
+                        <input name="attachments1" id="attachments1" data-modal="modal-1" type="number" min="1000" max="1000000" value="1000" class="consult__contact__input">
+                    </div>
+                    <label class="consult__city__label hide">Выберите сферы, если есть предпочтения:</label>
+                        <div class="checkboxes__wrapper">
+                            <span class="checkbox__item">
+                                <p>Вендинг</p>
+                                <input name="Вендинг" type="checkbox" name="" id="">
+                            </span>
+                            <span class="checkbox__item">
+                                <p>Красота</p>
+                                <input name="Красота" type="checkbox" name="" id="">
+                            </span>
+                            <span class="checkbox__item">
+                                <p>Horeca</p>
+                                <input name="Horeca" type="checkbox" name="" id="">
+                            </span>
+                            <span class="checkbox__item">
+                                <p>Недвижимость</p>
+                                <input name="Недвижимость" type="checkbox" name="" id="">
+                            </span>
+                            <span class="checkbox__item">
+                                <p>Онлайн-обучение</p>
+                                <input name="Онлайн-обучение" type="checkbox" name="" id="">
+                            </span>
+                            <span class="checkbox__item">
+                                <p>Туризм</p>
+                                <input name="Туризм" type="checkbox" name="" id="">
+                            </span>
+                        </div>
+                    <div class="input__wrapper">
+                        <label for="additionalShere1" class="consult__city__label">Cвой вариант (укажите):</label>
+                        <input name="Свой вариант" id="additionalShere1" data-modal="modal-1" type="text" class="consult__city__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="city1" class="consult__contact__label">Ваш город</label>
+                        <input name="Ваш город1" id="city1" data-modal="modal-1" type="text" class="consult__contact__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="contact1" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                        <input name="Контакты1" id="contact1" data-modal="modal-1" type="text" class="consult__contact__input">
+                    </div>
+                </form>
+            </div>
+            <div class="modal__footer">
+                <div class="modal__btn__wrapper">
+                    <button class="js-form-btn-1" data-form="g-form-1">Отправить</button>
+                </div>
+                <img src="./img/FAQ-modal-bg.svg" alt="">
+            </div>
+        </div>
+    </div>
 
     <div class="modal modal-2">
         <div class="modal__content">

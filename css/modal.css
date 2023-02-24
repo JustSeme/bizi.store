@@ -39,6 +39,9 @@
   transition: all 0.4s ease-in-out;
   border-radius: 10px;
 }
+.modal__content.form-1 {
+  max-width: 540px;
+}
 
 .modal__header .modal__title__text {
   font-size: 49px;
@@ -57,8 +60,14 @@
   flex-direction: column;
   margin-top: 60px;
 }
+.modal__body label {
+  color: rgba(0, 0, 0, 0.6980392157);
+}
 .modal__body .input__wrapper {
   position: relative;
+}
+.modal__body .input__wrapper.slider {
+  margin-top: 9px;
 }
 .modal__body .input__wrapper:not(:last-child) {
   margin-bottom: 20px;
@@ -85,6 +94,43 @@
 }
 .modal__body .input__wrapper input:active, .modal__body .input__wrapper input:focus {
   outline: 0;
+}
+.modal__body .input__wrapper input[type=number]::-webkit-outer-spin-button,
+.modal__body .input__wrapper input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.modal__body .checkboxes__wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+.modal__body .checkboxes__wrapper .checkbox__item {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.modal__body .checkboxes__wrapper .checkbox__item p {
+  margin-left: 7px;
+}
+.modal__body .checkboxes__wrapper .checkbox__item input {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  background: inherit;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.modal__body .checkboxes__wrapper .checkbox__item input:checked {
+  outline: 6px solid black;
+  outline-offset: -15px;
 }
 
 .modal__footer {

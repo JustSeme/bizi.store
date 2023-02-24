@@ -45,6 +45,23 @@ function gFormSender(form, submitButton, responseHeading) {
     }, 5000);
 }
 
+$('.js-form-btn-1').click(function (event) {
+    event.preventDefault();
+
+    let attrDataForm = $(this).attr('data-form')
+
+    // Id текущей формы
+    let form = $('#' + attrDataForm)[0];
+
+    // Кнопка отправки формы
+    let submitButton = $(this)
+
+    // Заголовок для ответа
+    let responseHeading = $('.modal__response__text.' + attrDataForm)
+
+    gFormSender(form, submitButton, responseHeading)
+});
+
 $('.js-form-btn-2').click(function (event) {
     event.preventDefault();
 
