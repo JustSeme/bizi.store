@@ -328,12 +328,13 @@
                 <h2 class="about__button__desc">
                     Вам остается только нажать кнопку запуска — и улететь в космос по прибыли:
                 </h2>
+                <button class="about__button">НА СТАРТ !</button>
             </div>
             <div class="grid__img__wrapper">
                 <img src="/img/about_bg.svg" alt="">
             </div>
             <div class="about__btn__wrapper">
-                <button class="about__button">НА СТАРТ !</button>
+                <button class="about__button-mobile">НА СТАРТ !</button>
             </div>
         </div>
     </section>
@@ -391,15 +392,15 @@
                 <form class="g-form" id="g-form-2" method="POST" action="" autocomplete="off">
                     <div class="input__wrapper">
                         <label for="name" class="consult__name__label">Ваше имя</label>
-                        <input name="Ваше имя" id="name" data-modal="modal-2" type="text" class="consult__name__input">
+                        <input name="Ваше имя2" id="name" data-modal="modal-2" type="text" class="consult__name__input">
                     </div>
                     <div class="input__wrapper">
                         <label for="city" class="consult__city__label">Ваш город</label>
-                        <input name="Ваш город" id="city" data-modal="modal-2" type="text" class="consult__city__input">
+                        <input name="Ваш город2" id="city" data-modal="modal-2" type="text" class="consult__city__input">
                     </div>
                     <div class="input__wrapper">
                         <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
-                        <input name="Контакты" id="contact" data-modal="modal-2" type="text" class="consult__contact__input">
+                        <input name="Контакты2" id="contact" data-modal="modal-2" type="text" class="consult__contact__input">
                     </div>
                 </form>
             </div>
@@ -417,22 +418,24 @@
             <div class="modal__header">
             </div>
             <div class="modal__body">
-                <div class="input__wrapper">
-                    <label for="name" class="consult__name__label">Ваше имя</label>
-                    <input id="name" type="text" class="consult__name__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="city" class="consult__city__label">Ваш вопрос</label>
-                    <input id="city" type="text" class="consult__city__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
-                    <input id="contact" type="text" class="consult__contact__input">
-                </div>
+                <form class="g-form" id="g-form-3" method="POST" action="" autocomplete="off">
+                    <div class="input__wrapper">
+                        <label for="name" class="consult__name__label">Ваше имя</label>
+                        <input name="Ваше имя3" id="name" type="text" class="consult__name__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="question" class="consult__city__label">Ваш вопрос</label>
+                        <input name="Ваш вопрос3" id="question" type="text" class="consult__city__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                        <input name="Контакты3" id="contact" type="text" class="consult__contact__input">
+                    </div>
+                </form>
             </div>
             <div class="modal__footer">
                 <div class="modal__btn__wrapper">
-                    <button>Отправить</button>
+                    <button class="js-form-btn-3" data-form="g-form-3">Отправить</button>
                 </div>
                 <img src="./img/FAQ-modal-bg.svg" alt="">
             </div>
@@ -446,22 +449,24 @@
                 <p class="modal__desc__text">Заполните форму, чтобы оставить заявку</p>
             </div>
             <div class="modal__body">
-                <div class="input__wrapper">
-                    <label for="name" class="consult__name__label">Ваше имя</label>
-                    <input id="name" type="text" class="consult__name__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="city" class="consult__city__label">Ваш город</label>
-                    <input id="city" type="text" class="consult__city__input">
-                </div>
-                <div class="input__wrapper">
-                    <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
-                    <input id="contact" type="text" class="consult__contact__input">
-                </div>
+                <form class="g-form" id="g-form-4" method="POST" action="" autocomplete="off">
+                    <div class="input__wrapper">
+                        <label for="name" class="consult__name__label">Ваше имя</label>
+                        <input name="Ваше имя4" id="name" type="text" class="consult__name__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="city" class="consult__city__label">Ваш город</label>
+                        <input name="Ваш город4" id="city" type="text" class="consult__city__input">
+                    </div>
+                    <div class="input__wrapper">
+                        <label for="contact" class="consult__contact__label">Email, номер телефона, телеграм</label>
+                        <input name="Контакты4" id="contact" type="text" class="consult__contact__input">
+                    </div>
+                </form>
             </div>
             <div class="modal__footer">
                 <div class="modal__btn__wrapper">
-                    <button>Отправить</button>
+                    <button class="js-form-btn-4" data-form="g-form-4">Отправить</button>
                 </div>
                 <img src="./img/FAQ-modal-bg.svg" alt="">
             </div>

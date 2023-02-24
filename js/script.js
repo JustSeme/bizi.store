@@ -86,10 +86,8 @@ $(document).ready(function () {
         $('.modal__content').on('click', (e) => e.stopPropagation())
     }
 
-    let productTitle
     $('.js-modal-2').on('click', function (e) {
         onModalOpen('.modal-2', e)
-        productTitle = $(this).attr('data-product')
     })
 
     $('.js-modal-3').on('click', (e) => onModalOpen('.modal-3', e))

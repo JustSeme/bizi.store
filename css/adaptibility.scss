@@ -608,14 +608,18 @@ $black_bg: #303030;
                     }
                 }
             }
+            .about__button {
+                display: none;
+            }
             .about__btn__wrapper {
-                text-align: center;
-                .about__button {
+                text-align: -webkit-center;
+                .about__button-mobile {
+                    display: block;
                     margin-top: 27px;
                     line-height: 0;
                     font-size: 15px;
                     height: 30px;
-                    width: 215px;
+                    width: 220px;
                 }
             }
         }

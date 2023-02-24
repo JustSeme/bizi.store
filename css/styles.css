@@ -318,6 +318,9 @@ section {
   width: 505px;
   margin-bottom: 48px;
 }
+#about .about__grid__tags .about__button-mobile {
+  display: none;
+}
 
 #questions {
   text-align: center;
