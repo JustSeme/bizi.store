@@ -36,6 +36,12 @@ button {
   font-size: 30px;
 }
 
+button:hover, button:active {
+  background: white;
+  color: #8647EA;
+  font-weight: 900;
+}
+
 .logo {
   font-family: "Russo One";
   font-weight: 700;
@@ -192,10 +198,16 @@ a:hover {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 }
+#tariffs .tariffs__block__tariff .tariff__button__solo:hover {
+  background: white;
+}
 #tariffs .tariffs__block__tariff .tariff__button__help {
   position: relative;
   background: linear-gradient(#8647EA, #A99ED6);
   border-radius: 5px;
+}
+#tariffs .tariffs__block__tariff .tariff__button__help:hover, #tariffs .tariffs__block__tariff .tariff__button__help:active {
+  background: linear-gradient(#A99ED6, #caaafd);
 }
 #tariffs .tariffs__block__tariff .tariff__button__help::before {
   content: "";

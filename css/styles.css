@@ -24,6 +24,8 @@ button {
   height: 75px;
   padding: 10px 70px;
   cursor: pointer;
+  moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 section {
@@ -315,7 +317,6 @@ section {
   margin-bottom: 102px;
 }
 #about .about__grid__tags .about__button {
-  width: 505px;
   margin-bottom: 48px;
 }
 #about .about__grid__tags .about__button-mobile {

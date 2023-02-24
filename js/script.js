@@ -77,8 +77,7 @@ $(document).ready(function () {
     function onModalOpen(modalName, event) {
         event.preventDefault()
         $('html, body').css({
-            overflow: 'hidden',
-            height: '100%'
+            overflow: 'hidden'
         })
         $(modalName).addClass('show')
         $(modalName).on('click', () => onModalClose(modalName))
@@ -101,13 +100,18 @@ $(document).ready(function () {
         $('#' + labelID).trigger('click');
     });
 
-    let inputID
     $('input').click(function () {
-        inputID = $(this).attr('id')
+        let inputID = $(this).attr('id')
+        $(`label[for=${inputID}]`).addClass('hide')
+    })
+
+    $('input').change(function () {
+        let inputID = $(this).attr('id')
         $(`label[for=${inputID}]`).addClass('hide')
     })
 
     $('input').focusout(function () {
+        let inputID = $(this).attr('id')
         if ($(this).val().match(/^\s*$/)) {
             $(`label[for=${inputID}`).removeClass('hide')
         }

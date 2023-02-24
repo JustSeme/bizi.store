@@ -17,6 +17,9 @@
 .modal.show {
     opacity: 1;
     pointer-events: visible;
+    & .modal__content {
+        display: block;
+    }
 }
 
 .modal.show .modal__content {
@@ -24,6 +27,7 @@
 }
 
 .modal__content {
+    display: none;
     border: 3px solid #000000;
     min-width: 300px;
     max-width: 400px;
@@ -43,6 +47,10 @@
     }
     .modal__desc__text {
         font-size: 20px;
+    }
+    .modal__response__text {
+        font-size: 20px;
+        color: #8647EA;
     }
 }
 
