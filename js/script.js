@@ -7,24 +7,38 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 10000,
         margin: 50,
+        navText: [
+            '<img width="30px" src="./icons/left-arrow-icon.png" alt="">',
+            '<img width="30px" src="./icons/right-arrow-icon.png" alt="">'
+        ],
         responsive: {
             2000: {
                 items: 5,
-                nav: true,
+                nav: false,
             },
             1650: {
                 items: 4,
-                nav: true,
+                nav: false,
+            },
+            1580: {
+                items: 3.5,
+                nav: false
             },
             1150: {
                 items: 3,
+                margin: 35,
                 nav: false,
+            },
+            1000: {
+                items: 2.5,
+                margin: 25,
+                nav: false
             },
             580: {
                 items: 2,
                 margin: 10,
                 dots: false,
-                nav: false,
+                nav: true,
             },
             410: {
                 items: 1.5,

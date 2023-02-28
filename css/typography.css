@@ -115,6 +115,9 @@ a:hover {
 #solutions .owl-carousel button.owl-dot.active {
   background: #8647EA;
 }
+#solutions .owl-nav button {
+  background: #8647EA;
+}
 
 #instruction .instruction__block__description {
   font-size: 49px;

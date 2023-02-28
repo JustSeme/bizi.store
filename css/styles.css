@@ -127,6 +127,11 @@ section {
   padding: 0;
   line-height: 0;
 }
+#solutions .owl-nav button {
+  width: 15%;
+  max-height: 50px;
+  margin: 20px;
+}
 
 #instruction {
   position: relative;

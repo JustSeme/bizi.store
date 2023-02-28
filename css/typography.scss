@@ -135,6 +135,12 @@ a {
     .owl-carousel button.owl-dot.active {
         background: $accent;
     }
+
+    .owl-nav {
+        button {
+            background: $accent;
+        }
+    }
 }
 
 #instruction {
