@@ -43,6 +43,9 @@
   max-width: 540px;
 }
 
+.modal__header {
+  position: relative;
+}
 .modal__header .modal__title__text {
   font-size: 49px;
   margin-bottom: 20px;
@@ -53,6 +56,12 @@
 .modal__header .modal__response__text {
   font-size: 20px;
   color: #8647EA;
+}
+.modal__header .modal__close-mobile__icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
 }
 
 .modal__body {
@@ -145,4 +154,16 @@
   position: absolute;
   bottom: -130px;
   right: -100px;
+}
+
+@media (max-width: 750px) {
+  .modal__content .modal__header .modal__title__text {
+    max-width: 435px;
+  }
+  .modal__content .modal__header .modal__close-mobile__icon {
+    display: block;
+  }
+  .modal__content .modal__footer img {
+    display: none;
+  }
 }

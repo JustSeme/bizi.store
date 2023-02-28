@@ -99,6 +99,11 @@ $(document).ready(function () {
 
     $('.js-modal-4').on('click', (e) => onModalOpen('.modal-4', e))
 
+    $('.js-close-modal').on('click', function (e) {
+        const modalName = $(this).attr('data-modal')
+        onModalClose(`.${modalName}`)
+    })
+
     //label swap logic
 
     $('label').click(function () {

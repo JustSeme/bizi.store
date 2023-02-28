@@ -317,6 +317,7 @@ section {
 }
 #about .about__grid__tags .about__button {
   margin-bottom: 48px;
+  min-width: 330px;
 }
 #about .about__grid__tags .about__button-mobile {
   display: none;
