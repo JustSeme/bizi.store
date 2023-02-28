@@ -174,3 +174,15 @@
         }
     }
 }
+
+@media (max-height: 870px) {
+    .modal-1, .modal-2 {
+        .modal__content {
+            .modal__footer {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+}
