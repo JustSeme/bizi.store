@@ -516,7 +516,7 @@
     left: 10%;
   }
 }
-@media (max-width: 385px) {
+@media (max-width: 414px) {
   #instruction .instruction__block__description .instruction__img__wrapper {
     width: 150px;
     top: 70px;
