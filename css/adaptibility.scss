@@ -8,7 +8,7 @@ $black_bg: #303030;
         .carousel-item {
             .slide__info__block {
                 .info__title__text {
-                    font-size: 28px !important;
+                    font-size: 19px !important;
                 }
             }
         }
@@ -19,11 +19,11 @@ $black_bg: #303030;
     header {
         height: 100px;
         .header__content {
-            font-size: 40px;
+            font-size: 27px;
             .header__menu {
                 button {
                     height: 60px;
-                    font-size: 40px;
+                    font-size: 27px;
                 }
             }
         }
@@ -31,25 +31,25 @@ $black_bg: #303030;
 
     #solutions {
         .solutions__title__text {
-            font-size: 60px;
+            font-size: 40px;
         }
         .owl-carousel {
             .carousel-item {
                 .slide__marker__img {
                     width: 90px;
                     height: 90px;
-                    font-size: 18px;
+                    font-size: 12px;
                     font-weight: 400;
                 }
                 
                 .slide__info__block {
-                    font-size: 24px;
+                    font-size: 16px;
                     .info__title__text {
-                        font-size: 26px;
+                        font-size: 18px;
                     }
                     .info__button__wrapper {
                         .info__button {
-                            font-size: 30px;
+                            font-size: 20px;
                             height: 40px;
                         }
                     }
@@ -62,27 +62,27 @@ $black_bg: #303030;
         .instruction__block__description {
             .description__desc__block {
                 .description__title__text {
-                    font-size: 60px;
+                    font-size: 40px;
                 }
                 .descrtiption__desc__text {
-                    font-size: 35px;
+                    font-size: 24px;
                 }
             }
         }
 
         .instruction__cards__wrapper {
             .cards__title__text {
-                font-size: 70px;
+                font-size: 47px;
             }
             .cards__flex__wrapper {
                 .cards__card__block {
                     .card__text__caps {
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                 }
             }
             .instruction__consult__button {
-                font-size: 40px;
+                font-size: 27px;
             }
             .crystall-right {
                 height: auto;
@@ -98,7 +98,7 @@ $black_bg: #303030;
 
     #tariffs {
         .tariffs__text__title {
-            font-size: 70px;
+            font-size: 47px;
         }
 
         .tariffs__grid__wrapper {
@@ -107,19 +107,19 @@ $black_bg: #303030;
                     width: 420px;
                     height: 650px;
                     .tariff__text__title {
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                     .tariff__text__price {
-                        font-size: 70px;
+                        font-size: 47px;
                     }
                     .tariff__text__desc {
                         width: auto;
                         height: 120px;
-                        font-size: 26px;
+                        font-size: 18px;
                     }
                     .tariff__tags__wrapper {
                         .tariff__tag__item {
-                            font-size: 24px;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -130,13 +130,13 @@ $black_bg: #303030;
     footer {
         .footer__content {
             .footer__logo {
-                font-size: 42px;
+                font-size: 28px;
             }
             .footer__button__consult {
-                font-size: 40px;
+                font-size: 27px;
             }
             a {
-                font-size: 36px;
+                font-size: 24px;
             }
         }
     }
@@ -153,7 +153,7 @@ $black_bg: #303030;
 @media (max-width: 1350px) {
     #solutions {
         .solutions__title__text {
-            font-size: 36px;
+            font-size: 24px;
         }
         .owl-carousel {
             .carousel-item {
@@ -168,7 +168,7 @@ $black_bg: #303030;
                 .cards__card__block {
                     width: 120px;
                     .card__text__caps {
-                        font-size: 18px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -178,7 +178,7 @@ $black_bg: #303030;
 
 @media (max-width: 1270px) {
     .header__content {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     #solutions {
@@ -243,10 +243,10 @@ $black_bg: #303030;
     }
 
     .footer__content {
-        font-size: 24px;
+        font-size: 16px;
         button {
             padding: 0 5px;
-            font-size: 24px;
+            font-size: 16px;
         }
     }
 }
@@ -268,7 +268,7 @@ $black_bg: #303030;
             .owl-item {
                 .info__title__text {
                     white-space: nowrap;
-                    font-size: 17px;
+                    font-size: 12px;
                 }
             }
         }
@@ -308,7 +308,7 @@ $black_bg: #303030;
         margin: 0 23px;
         margin-bottom: 40px;
         .tariffs__text__title {
-            font-size: 30px;
+            font-size: 20px;
             margin-bottom: 21px;
         }
         
@@ -363,9 +363,9 @@ $black_bg: #303030;
 
 @media (max-width: 779px) {
     .header__content {
-        font-size: 16px;
+        font-size: 11px;
         button {
-            font-size: 16px;
+            font-size: 11px;
         }
     }
 
@@ -380,7 +380,7 @@ $black_bg: #303030;
             line-height: 0;
             width: 260px;
             height: 30px;
-            font-size: 15px;
+            font-size: 10px;
         }
     }
 
@@ -396,7 +396,7 @@ $black_bg: #303030;
         .instruction__cards__wrapper {
             .instruction__consult__button {
                 padding: 14px 43px 20px 41px;
-                font-size: 15px;
+                font-size: 10px;
                 line-height: 0;
                 height: 30px;
                 width: 235px;
@@ -446,9 +446,9 @@ $black_bg: #303030;
         height: 30px;
         padding: 14px 23px 45px 15px;
         .footer__content {
-            font-size: 16px;
+            font-size: 11px;
             button {
-                font-size: 16px;
+                font-size: 11px;
             }
         }
     }
@@ -467,7 +467,7 @@ $black_bg: #303030;
         padding-top: 100px;
         padding-bottom: 36px;
         .solutions__title__text {
-            font-size: 26px;
+            font-size: 18px;
             width: 330px;
             margin-bottom: 37px;
         }
@@ -476,12 +476,12 @@ $black_bg: #303030;
             .carousel-item {
                 min-height: auto;
                 .slide__info__block {
-                    font-size: 15px;
+                    font-size: 10px;
                     .info__button__wrapper {
                         .info__button {
                             height: 25px;
                             width: 130px;
-                            font-size: 17px;
+                            font-size: 12px;
                         }
                     }
                 }
@@ -495,13 +495,13 @@ $black_bg: #303030;
             .description__desc__block {
                 .description__title__text {
                     max-width: 275px;
-                    font-size: 25px;
+                    font-size: 17px;
                     .chut-ponizhe {
                         line-height: 0px;
                     }
                 }
                 .descrtiption__desc__text {
-                    font-size: 15px;
+                    font-size: 10px;
                     max-width: 191px;
                 }
             }
@@ -536,7 +536,7 @@ $black_bg: #303030;
 
     #tariffs {
         .tariffs__text__title {
-            font-size: 25px;
+            font-size: 17px;
             text-align: left;
             max-width: 337px;
             margin-top: 18px;
@@ -546,13 +546,13 @@ $black_bg: #303030;
                 .tariffs__block__tariff {
                     text-align: left;
                     .tariff__text__title {
-                        font-size: 18px;
+                        font-size: 12px;
                     }
                     .tariff__text__price {
-                        font-size: 50px;
+                        font-size: 34px;
                     }
                     .tariff__text__desc {
-                        font-size: 16px;
+                        font-size: 11px;
                     }
                     hr {
                         width: 100%;
@@ -569,7 +569,7 @@ $black_bg: #303030;
 
     #about {
         .about__text__title {
-            font-size: 25px;
+            font-size: 17px;
             padding: 0;
         }
         .about__grid__description {
@@ -617,7 +617,7 @@ $black_bg: #303030;
                     display: block;
                     margin-top: 27px;
                     line-height: 0;
-                    font-size: 15px;
+                    font-size: 10px;
                     height: 30px;
                     width: 220px;
                 }
@@ -628,10 +628,10 @@ $black_bg: #303030;
     #questions {
         .questions__text__title {
             max-width: 282px;
-            font-size: 25px;
+            font-size: 17px;
         }
         .aq__block__wrapper {
-            font-size: 15px;
+            font-size: 10px;
             .question__text__title {
                 padding-bottom: 10px;
             }

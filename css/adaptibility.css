@@ -1,6 +1,6 @@
 @media (min-width: 2503px) and (max-width: 2560px) {
   .owl-carousel .carousel-item .slide__info__block .info__title__text {
-    font-size: 28px !important;
+    font-size: 19px !important;
   }
 }
 @media (min-width: 2000px) and (max-width: 2560px) {
@@ -8,45 +8,45 @@
     height: 100px;
   }
   header .header__content {
-    font-size: 40px;
+    font-size: 27px;
   }
   header .header__content .header__menu button {
     height: 60px;
-    font-size: 40px;
+    font-size: 27px;
   }
   #solutions .solutions__title__text {
-    font-size: 60px;
+    font-size: 40px;
   }
   #solutions .owl-carousel .carousel-item .slide__marker__img {
     width: 90px;
     height: 90px;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block {
-    font-size: 24px;
+    font-size: 16px;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__title__text {
-    font-size: 26px;
+    font-size: 18px;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper .info__button {
-    font-size: 30px;
+    font-size: 20px;
     height: 40px;
   }
   #instruction .instruction__block__description .description__desc__block .description__title__text {
-    font-size: 60px;
+    font-size: 40px;
   }
   #instruction .instruction__block__description .description__desc__block .descrtiption__desc__text {
-    font-size: 35px;
+    font-size: 24px;
   }
   #instruction .instruction__cards__wrapper .cards__title__text {
-    font-size: 70px;
+    font-size: 47px;
   }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__text__caps {
-    font-size: 30px;
+    font-size: 20px;
   }
   #instruction .instruction__cards__wrapper .instruction__consult__button {
-    font-size: 40px;
+    font-size: 27px;
   }
   #instruction .instruction__cards__wrapper .crystall-right {
     height: auto;
@@ -58,34 +58,34 @@
     bottom: -120px;
   }
   #tariffs .tariffs__text__title {
-    font-size: 70px;
+    font-size: 47px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff {
     width: 420px;
     height: 650px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__title {
-    font-size: 30px;
+    font-size: 20px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__price {
-    font-size: 70px;
+    font-size: 47px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__desc {
     width: auto;
     height: 120px;
-    font-size: 26px;
+    font-size: 18px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__tags__wrapper .tariff__tag__item {
-    font-size: 24px;
+    font-size: 16px;
   }
   footer .footer__content .footer__logo {
-    font-size: 42px;
+    font-size: 28px;
   }
   footer .footer__content .footer__button__consult {
-    font-size: 40px;
+    font-size: 27px;
   }
   footer .footer__content a {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 @media (max-width: 2000px) {
@@ -95,7 +95,7 @@
 }
 @media (max-width: 1350px) {
   #solutions .solutions__title__text {
-    font-size: 36px;
+    font-size: 24px;
   }
   #solutions .owl-carousel .carousel-item {
     min-height: 518px;
@@ -104,12 +104,12 @@
     width: 120px;
   }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper .cards__card__block .card__text__caps {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 @media (max-width: 1270px) {
   .header__content {
-    font-size: 24px;
+    font-size: 16px;
   }
   #solutions .owl-carousel {
     margin-bottom: 51px;
@@ -155,11 +155,11 @@
     margin-bottom: 50px;
   }
   .footer__content {
-    font-size: 24px;
+    font-size: 16px;
   }
   .footer__content button {
     padding: 0 5px;
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 @media (max-width: 961px) {
@@ -177,7 +177,7 @@
   }
   #solutions .owl-carousel .owl-item .info__title__text {
     white-space: nowrap;
-    font-size: 17px;
+    font-size: 12px;
   }
   #instruction .instruction__block__description .description__desc__block .description__title__text {
     margin-bottom: 30px;
@@ -205,7 +205,7 @@
     margin-bottom: 40px;
   }
   #tariffs .tariffs__text__title {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 21px;
   }
   #tariffs .tariffs__grid__wrapper {
@@ -251,10 +251,10 @@
 }
 @media (max-width: 779px) {
   .header__content {
-    font-size: 16px;
+    font-size: 11px;
   }
   .header__content button {
-    font-size: 16px;
+    font-size: 11px;
   }
   #solutions {
     padding: 52px 15px;
@@ -268,7 +268,7 @@
     line-height: 0;
     width: 260px;
     height: 30px;
-    font-size: 15px;
+    font-size: 10px;
   }
   #instruction {
     margin: 0 15px;
@@ -280,7 +280,7 @@
   }
   #instruction .instruction__cards__wrapper .instruction__consult__button {
     padding: 14px 43px 20px 41px;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 0;
     height: 30px;
     width: 235px;
@@ -323,10 +323,10 @@
     padding: 14px 23px 45px 15px;
   }
   footer .footer__content {
-    font-size: 16px;
+    font-size: 11px;
   }
   footer .footer__content button {
-    font-size: 16px;
+    font-size: 11px;
   }
 }
 @media (max-width: 629px) {
@@ -338,7 +338,7 @@
     padding-bottom: 36px;
   }
   #solutions .solutions__title__text {
-    font-size: 26px;
+    font-size: 18px;
     width: 330px;
     margin-bottom: 37px;
   }
@@ -349,25 +349,25 @@
     min-height: auto;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block {
-    font-size: 15px;
+    font-size: 10px;
   }
   #solutions .owl-carousel .carousel-item .slide__info__block .info__button__wrapper .info__button {
     height: 25px;
     width: 130px;
-    font-size: 17px;
+    font-size: 12px;
   }
   #instruction {
     margin-bottom: 141px;
   }
   #instruction .instruction__block__description .description__desc__block .description__title__text {
     max-width: 275px;
-    font-size: 25px;
+    font-size: 17px;
   }
   #instruction .instruction__block__description .description__desc__block .description__title__text .chut-ponizhe {
     line-height: 0px;
   }
   #instruction .instruction__block__description .description__desc__block .descrtiption__desc__text {
-    font-size: 15px;
+    font-size: 10px;
     max-width: 191px;
   }
   #instruction .instruction__cards__wrapper .cards__flex__wrapper {
@@ -395,7 +395,7 @@
     display: none;
   }
   #tariffs .tariffs__text__title {
-    font-size: 25px;
+    font-size: 17px;
     text-align: left;
     max-width: 337px;
     margin-top: 18px;
@@ -404,13 +404,13 @@
     text-align: left;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__title {
-    font-size: 18px;
+    font-size: 12px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__price {
-    font-size: 50px;
+    font-size: 34px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff .tariff__text__desc {
-    font-size: 16px;
+    font-size: 11px;
   }
   #tariffs .tariffs__grid__wrapper .tariffs__flex__wrapper .tariffs__block__tariff hr {
     width: 100%;
@@ -419,7 +419,7 @@
     width: 100%;
   }
   #about .about__text__title {
-    font-size: 25px;
+    font-size: 17px;
     padding: 0;
   }
   #about .about__grid__description {
@@ -463,16 +463,16 @@
     display: block;
     margin-top: 27px;
     line-height: 0;
-    font-size: 15px;
+    font-size: 10px;
     height: 30px;
     width: 220px;
   }
   #questions .questions__text__title {
     max-width: 282px;
-    font-size: 25px;
+    font-size: 17px;
   }
   #questions .aq__block__wrapper {
-    font-size: 15px;
+    font-size: 10px;
   }
   #questions .aq__block__wrapper .question__text__title {
     padding-bottom: 10px;

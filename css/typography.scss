@@ -73,9 +73,9 @@ a {
 }
 
 .header__content {
-    font-size: 30px;
+    font-size: 20px;
     button {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 
@@ -87,7 +87,7 @@ a {
     background: $background_2;
     .solutions__title__text {
         font-family: 'Gosha Sans bold';
-        font-size: 40px;
+        font-size: 27px;
     }
 
     .carousel-item {
@@ -100,16 +100,16 @@ a {
             font-family: 'Gosha Sans';
         }
         .slide__info__block {
-            font-size: 18px;
+            font-size: 12px;
             .info__title__text {
-                font-size: 23px;
+                font-size: 16px;
             }
             .info__gray__text {
                 color: #FFFFFFB2;
             }
             .info__button__wrapper {
                 .info__button {
-                    font-size: 20px;
+                    font-size: 14px;
                 }
             }
         }
@@ -146,10 +146,10 @@ a {
 #instruction {
 
     .instruction__block__description {
-        font-size: 49px;
+        font-size: 33px;
 
         .description__title__text {
-            font-size: 50px;
+            font-size: 34px;
             font-weight: 700;
         }
 
@@ -162,7 +162,7 @@ a {
     .instruction__cards__wrapper {
         text-align: center;
         .cards__title__text {
-            font-size: 50px;
+            font-size: 22px;
             font-weight: 700;
         }
 
@@ -171,7 +171,7 @@ a {
 
             .card__digit__number {
                 font-family: 'Rubik Mono One';
-                font-size: 110px;
+                font-size: 74px;
 
                 background: linear-gradient(150.98deg, rgba(134, 71, 234, 0.5) 14.97%, rgba(109, 220, 255, 0.5) 82.61%);
                 -webkit-background-clip: text;
@@ -180,7 +180,7 @@ a {
             }
 
             .card__text__caps {
-                font-size: 20px;
+                font-size: 14px;
                 text-transform: uppercase;
             }
         }
@@ -190,7 +190,7 @@ a {
 #tariffs {
     
     .tariffs__text__title {
-        font-size: 50px;
+        font-size: 34px;
         font-weight: 700;
     }
     
@@ -203,11 +203,11 @@ a {
         }
 
         .tariff__text__title {
-            font-size: 18px;
+            font-size: 12px;
         }
 
         .tariff__text__price {
-            font-size: 60px;
+            font-size: 40px;
         }
 
         .tariff__text__desc {
@@ -219,7 +219,7 @@ a {
         }
 
         .tariff__tag__item {
-            font-size: 16px;
+            font-size: 11px;
             font-weight: 500;
         }
 
@@ -284,17 +284,17 @@ a {
     .about__text__title {
         font-family: 'Gosha Sans bold';
         font-weight: 700;
-        font-size: 50px;
+        font-size: 34px;
     }
 
     .about__grid__description {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .about__grid__tags {
-        font-size: 20px;
+        font-size: 14px;
         .about__button__desc {
-            font-size: 30px;
+            font-size: 27px;
         }
     }
 }
@@ -303,18 +303,18 @@ a {
 
     .questions__text__title {
         font-family: 'Gosha Sans bold';
-        font-size: 50px;
+        font-size: 34px;
         font-weight: 700;
     }
 
     .aq__block__wrapper {
-        font-size: 35px;
+        font-size: 24px;
     }
 }
 
 footer {
     background-color: $background_2;
-    font-size: 30px;
+    font-size: 20px;
 
     .footer__content {
         .footer__logo {
